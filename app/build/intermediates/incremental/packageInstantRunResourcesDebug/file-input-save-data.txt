@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 11 00:57:34 PDT 2017
+#Thu May 11 10:20:51 PDT 2017
 20.base=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/resources-debug.ap_
 493.base=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/resources-debug.ap_
