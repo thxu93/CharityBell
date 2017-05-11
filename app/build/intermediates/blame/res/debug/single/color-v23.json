@@ -36,6 +36,10 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     }

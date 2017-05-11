@@ -24,6 +24,10 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/color/design_error.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color/abc_tint_edittext.xml"
     },
@@ -40,16 +44,24 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color/abc_search_url_text.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/color/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/color/common_google_signin_btn_text_light.xml"
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/com_facebook_send_button_text_color.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/color/com_facebook_send_button_text_color.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/color/common_google_signin_btn_text_dark.xml"
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
@@ -72,12 +84,20 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color/abc_tint_switch_track.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/color/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/com_facebook_button_text_color.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/color/com_facebook_button_text_color.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",

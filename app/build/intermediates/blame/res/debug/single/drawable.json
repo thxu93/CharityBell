@@ -1,19 +1,23 @@
 [
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_dialog_material_background.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__video_pause_btn.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__video_pause_btn.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/drawable/common_google_signin_btn_text_light.xml"
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/idp_button_background_email.xml",
+        "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/drawable/idp_button_background_email.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/drawable/design_password_eye.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
@@ -24,44 +28,40 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_button_send_background.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_button_like_background.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__video_seekbar.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__video_seekbar.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -72,16 +72,16 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__like_action.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__like_action.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__login_btn.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__login_btn.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
@@ -96,20 +96,32 @@
         "source": "/Users/Adam/.android/build-cache/cacf703fdb9f776ae2af33a3d8f650f67ad2656f/output/res/drawable/common_plus_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
-        "source": "/Users/Adam/.android/build-cache/cacf703fdb9f776ae2af33a3d8f650f67ad2656f/output/res/drawable/common_plus_signin_btn_text_dark.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/idp_button_background_facebook.xml",
+        "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/drawable/idp_button_background_facebook.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/messenger_button_white_bg_round.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_default.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__login_btn_default.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_background.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_button_login_background.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__player_overlay.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__player_overlay.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
@@ -120,12 +132,20 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_vector_test.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_auth_dialog_background.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
@@ -134,6 +154,202 @@
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
         "source": "/Users/Adam/.android/build-cache/cacf703fdb9f776ae2af33a3d8f650f67ad2656f/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__quote_tweet_border.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__quote_tweet_border.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__video_replay_btn.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__video_replay_btn.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__transparent.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__transparent.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__share_action.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__share_action.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_button_login_logo.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__btn_composer_tweet.xml",
+        "source": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/drawable/tw__btn_composer_tweet.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__gif_badge.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__gif_badge.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_pressed.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__login_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__video_play_btn.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__video_play_btn.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_default_light.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__login_btn_default_light.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__install_button_border.xml",
+        "source": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/drawable/tw__install_button_border.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__app_info_layout_border.xml",
+        "source": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/drawable/tw__app_info_layout_border.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/idp_button_background_twitter.xml",
+        "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/drawable/idp_button_background_twitter.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__bg_media_badge.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__bg_media_badge.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/idp_button_background_google.xml",
+        "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/drawable/idp_button_background_google.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/Adam/.android/build-cache/cacf703fdb9f776ae2af33a3d8f650f67ad2656f/output/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__vine_badge.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__vine_badge.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__call_to_action.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__call_to_action.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
@@ -157,15 +373,15 @@
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/notification_icon_background.xml"
+        "source": "/Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/messenger_button_white_bg_selector.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -176,27 +392,35 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/drawable/navigation_empty_icon.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_disabled.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__login_btn_disabled.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
-        "source": "/Users/Adam/.android/build-cache/683dae73a0623d6d9fd13f1fb951e28c7bab43e9/output/res/drawable/common_google_signin_btn_icon_light.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_light.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__login_btn_light.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__seekbar_thumb.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable/tw__seekbar_thumb.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_pressed_light.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__login_btn_pressed_light.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
         "source": "/Users/Adam/.android/build-cache/cacf703fdb9f776ae2af33a3d8f650f67ad2656f/output/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/drawable/notification_bg.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable/com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable/tw__login_btn_text_color_light.xml",
+        "source": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/drawable/tw__login_btn_text_color_light.xml"
     }
 ]

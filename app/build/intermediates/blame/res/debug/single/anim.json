@@ -16,6 +16,26 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/anim/abc_slide_out_top.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/tw__slide_out.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/anim/tw__slide_out.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
@@ -24,12 +44,28 @@
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/anim/abc_popup_exit.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/anim/slide_in_right.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_fab_in.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/tw__accelerate_cubic.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/anim/tw__accelerate_cubic.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
@@ -38,5 +74,9 @@
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_snackbar_in.xml"
     }
 ]
