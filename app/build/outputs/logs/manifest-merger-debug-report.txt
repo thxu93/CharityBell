@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:2:1
 		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:5:5-22:19
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/txu/.android/build-cache/cbe7aa3d1a3772915882f492fc43af8a85f1142d/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/txu/.android/build-cache/514a8b76747e970713a3a1f75ca27d414be4d6a7/output/AndroidManifest.xml:29:5-20
@@ -53,10 +53,6 @@ receiver#edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity
 ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:19:9-68
 	android:name
 		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:19:19-56
-activity#edu.tacoma.uw.xut.charitybell.CharityActivity
-ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:21:9-62
-	android:name
-		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:21:19-50
 uses-sdk
 INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/AndroidManifest.xml:21:5-23:78

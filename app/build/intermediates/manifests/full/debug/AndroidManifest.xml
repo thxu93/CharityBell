@@ -27,8 +27,6 @@
         </activity>
 
         <receiver android:name="edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity" />
-
-        <activity android:name="edu.tacoma.uw.xut.charitybell.CharityActivity" />
     </application>
 
 </manifest>

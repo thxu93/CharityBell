@@ -1,4 +1,4 @@
-#Wed May 10 20:06:11 PDT 2017
+#Wed May 10 20:48:35 PDT 2017
 base.0=/Users/txu/Downloads/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f41d0762933b2a086d086316fe1d0a6452150d1e
 renamed.1=classes2.dex
 renamed.0=classes.dex

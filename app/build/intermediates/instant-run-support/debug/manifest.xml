@@ -26,8 +26,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity" >
-        </receiver>
+        <receiver android:name="edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"

@@ -20,10 +20,6 @@
         "source": "/Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/layout/activity_charity.xml",
-        "source": "/Users/txu/Downloads/CharityBell/app/src/main/res/layout/activity_charity.xml"
-    },
-    {
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/res/layout/select_dialog_item_material.xml"
     },
