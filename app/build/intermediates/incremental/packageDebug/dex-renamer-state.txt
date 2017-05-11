@@ -1,7 +1,7 @@
-#Wed May 10 20:48:35 PDT 2017
-base.0=/Users/txu/Downloads/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f41d0762933b2a086d086316fe1d0a6452150d1e
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/txu/Downloads/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_54c3ee586c0b738f65897df7f70bfdc77ddaa813/classes.dex
-base.1=/Users/txu/Downloads/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_54c3ee586c0b738f65897df7f70bfdc77ddaa813
-file.0=/Users/txu/Downloads/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f41d0762933b2a086d086316fe1d0a6452150d1e/classes.dex
+#Thu May 11 00:57:37 PDT 2017
+base.0=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_029bbb08728d2b141ba941bcb618a90cb09860de
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d758ee8ea9f0e12b83a15f82f04a480e10642322/classes.dex
+base.1=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d758ee8ea9f0e12b83a15f82f04a480e10642322
+file.0=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_029bbb08728d2b141ba941bcb618a90cb09860de/classes.dex

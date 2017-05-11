@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "392157258938",
+    "firebase_url": "https://charitybellapp.firebaseio.com",
+    "project_id": "charitybellapp",
+    "storage_bucket": "charitybellapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392157258938:android:c8f2a64f0b4682de",
+        "android_client_info": {
+          "package_name": "edu.tacoma.uw.xut.charitybell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392157258938-o6a8ah07i4g7je2au31a0dppvqgj5v08.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.tacoma.uw.xut.charitybell",
+            "certificate_hash": "4869ad4332b7c85642d40089ff88851bcd32fb46"
+          }
+        },
+        {
+          "client_id": "392157258938-sc141i05uvdustorjp32fktnpjl2auh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1JexmmPkINNkY8O6qBW7Cfx9J4p6m5t4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392157258938-sc141i05uvdustorjp32fktnpjl2auh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
