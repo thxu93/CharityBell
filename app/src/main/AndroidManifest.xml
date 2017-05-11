@@ -8,7 +8,7 @@
         android:label="Charity Bell"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AlarmActivity">
+        <activity android:name=".RegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,8 +16,10 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".AlarmReceiverActivity"></receiver>
+        <receiver android:name=".AlarmReceiverActivity" />
 
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AlarmActivity"></activity>
     </application>
 
 </manifest>

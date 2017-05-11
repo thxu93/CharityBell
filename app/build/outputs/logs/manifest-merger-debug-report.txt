@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidMani
 		INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Adam/.android/build-cache/d55464c92f82cc2b1db6b97172c6127c6a3750ab/output/AndroidManifest.xml:9:5-20
 MERGED from [com.firebaseui:firebase-ui-auth:1.2.0] /Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/AndroidManifest.xml:14:5-69:19
 MERGED from [com.android.support:design:25.1.1] /Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/AndroidManifest.xml:25:5-20
@@ -56,10 +56,10 @@ MERGED from [com.android.support:support-compat:25.1.1] /Users/Adam/.android/bui
 		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:10:9-40
-activity#edu.tacoma.uw.xut.charitybell.AlarmActivity
+activity#edu.tacoma.uw.xut.charitybell.RegisterActivity
 ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:11:9-17:20
 	android:name
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:11:19-48
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:11:19-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:12:13-16:29
 action#android.intent.action.MAIN
@@ -71,9 +71,17 @@ ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidMani
 	android:name
 		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:15:27-74
 receiver#edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:19:9-68
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:19:9-59
 	android:name
 		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:19:19-56
+activity#edu.tacoma.uw.xut.charitybell.LoginActivity
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:21:9-51
+	android:name
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:21:19-48
+activity#edu.tacoma.uw.xut.charitybell.AlarmActivity
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:22:9-60
+	android:name
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:22:19-48
 uses-sdk
 INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Adam/.android/build-cache/d55464c92f82cc2b1db6b97172c6127c6a3750ab/output/AndroidManifest.xml:5:5-7:41

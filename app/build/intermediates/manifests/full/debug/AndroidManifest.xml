@@ -25,7 +25,7 @@
         android:label="Charity Bell"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="edu.tacoma.uw.xut.charitybell.AlarmActivity" >
+        <activity android:name="edu.tacoma.uw.xut.charitybell.RegisterActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,6 +34,9 @@
         </activity>
 
         <receiver android:name="edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity" />
+
+        <activity android:name="edu.tacoma.uw.xut.charitybell.LoginActivity" />
+        <activity android:name="edu.tacoma.uw.xut.charitybell.AlarmActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"
