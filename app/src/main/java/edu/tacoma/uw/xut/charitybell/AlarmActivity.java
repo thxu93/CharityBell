@@ -32,6 +32,7 @@ public class AlarmActivity extends AppCompatActivity
         long time;
         if (((ToggleButton) view).isChecked())
         {
+            //sets the alarm
             Toast.makeText(AlarmActivity.this, "ALARM ON", Toast.LENGTH_SHORT).show();
             Calendar calendar = Calendar.getInstance();
             calendar.set(Calendar.HOUR_OF_DAY, alarmTimePicker.getCurrentHour());
@@ -46,8 +47,13 @@ public class AlarmActivity extends AppCompatActivity
                     time = time + (1000*60*60*12);
                 else
                     time = time + (1000*60*60*24);
+
             }
             alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, time, 10000, pendingIntent);
+
+            // setRepeating() lets you specify a precise custom interval--in this case,
+            // 20 minutes.
+//            alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, time, 1000 * 60 * 20, pendingIntent);
         }
         else
         {
