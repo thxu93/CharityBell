@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
+        "outputFile": "/Users/txu/Downloads/CharityBell/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 182
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 313
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 444
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -74,7 +74,7 @@
                     "endOffset": 564
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -93,7 +93,7 @@
                     "endOffset": 672
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -112,7 +112,7 @@
                     "endOffset": 795
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -131,7 +131,7 @@
                     "endOffset": 901
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -150,7 +150,7 @@
                     "endOffset": 1008
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -169,7 +169,7 @@
                     "endOffset": 1097
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -188,7 +188,7 @@
                     "endOffset": 1198
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -207,7 +207,7 @@
                     "endOffset": 1316
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -226,7 +226,7 @@
                     "endOffset": 1399
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -245,7 +245,7 @@
                     "endOffset": 1479
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -264,7 +264,7 @@
                     "endOffset": 1566
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -283,7 +283,7 @@
                     "endOffset": 1673
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -302,7 +302,7 @@
                     "endOffset": 1785
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -321,7 +321,7 @@
                     "endOffset": 1887
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -340,7 +340,7 @@
                     "endOffset": 1995
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -359,7 +359,7 @@
                     "endOffset": 2102
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -378,7 +378,7 @@
                     "endOffset": 2212
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -397,7 +397,7 @@
                     "endOffset": 2337
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -416,7 +416,7 @@
                     "endOffset": 2437
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -435,7 +435,7 @@
                     "endOffset": 2597
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -454,7 +454,7 @@
                     "endOffset": 2705
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -473,7 +473,7 @@
                     "endOffset": 2844
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -492,7 +492,7 @@
                     "endOffset": 2941
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -511,7 +511,7 @@
                     "endOffset": 3007
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -530,7 +530,7 @@
                     "endOffset": 3077
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -549,7 +549,7 @@
                     "endOffset": 3138
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -568,7 +568,7 @@
                     "endOffset": 3212
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -587,7 +587,7 @@
                     "endOffset": 3284
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -606,7 +606,7 @@
                     "endOffset": 3383
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -625,7 +625,7 @@
                     "endOffset": 3475
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -644,7 +644,7 @@
                     "endOffset": 3546
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -663,7 +663,7 @@
                     "endOffset": 3617
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -682,7 +682,7 @@
                     "endOffset": 3702
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -701,7 +701,7 @@
                     "endOffset": 3808
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -720,7 +720,7 @@
                     "endOffset": 3872
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -739,7 +739,7 @@
                     "endOffset": 3944
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -758,7 +758,7 @@
                     "endOffset": 4093
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -777,7 +777,7 @@
                     "endOffset": 4155
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -796,7 +796,7 @@
                     "endOffset": 4240
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -815,7 +815,7 @@
                     "endOffset": 4341
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -834,7 +834,7 @@
                     "endOffset": 4396
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/6f7465949d81284668e4f0213898aa096f4b5cee/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -853,7 +853,7 @@
                     "endOffset": 4466
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/cc77df674ddd439e15305ce342dc4d266d1d5f14/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -872,7 +872,7 @@
                     "endOffset": 4521
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -891,7 +891,7 @@
                     "endOffset": 4570
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/cc77df674ddd439e15305ce342dc4d266d1d5f14/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -910,7 +910,7 @@
                     "endOffset": 4626
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -929,7 +929,7 @@
                     "endOffset": 4681
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -948,7 +948,7 @@
                     "endOffset": 4744
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -967,7 +967,7 @@
                     "endOffset": 4811
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/6f7465949d81284668e4f0213898aa096f4b5cee/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -986,7 +986,7 @@
                     "endOffset": 4863
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/cc77df674ddd439e15305ce342dc4d266d1d5f14/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1005,7 +1005,7 @@
                     "endOffset": 4921
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/6f7465949d81284668e4f0213898aa096f4b5cee/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1024,7 +1024,7 @@
                     "endOffset": 4966
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1043,7 +1043,7 @@
                     "endOffset": 5014
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1062,7 +1062,7 @@
                     "endOffset": 5065
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/cc77df674ddd439e15305ce342dc4d266d1d5f14/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1081,7 +1081,7 @@
                     "endOffset": 5130
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1100,7 +1100,7 @@
                     "endOffset": 5202
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1119,7 +1119,7 @@
                     "endOffset": 5249
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1138,7 +1138,7 @@
                     "endOffset": 5321
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1157,7 +1157,7 @@
                     "endOffset": 5438
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1176,7 +1176,7 @@
                     "endOffset": 5710
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/6f7465949d81284668e4f0213898aa096f4b5cee/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1195,7 +1195,7 @@
                     "endOffset": 5796
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/6f7465949d81284668e4f0213898aa096f4b5cee/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1214,7 +1214,7 @@
                     "endOffset": 5872
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -1233,7 +1233,7 @@
                     "endOffset": 5935
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1252,7 +1252,7 @@
                     "endOffset": 6011
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -1271,7 +1271,7 @@
                     "endOffset": 6070
                 },
                 "from": {
-                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-pt/values-pt.xml",
+                    "file": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,

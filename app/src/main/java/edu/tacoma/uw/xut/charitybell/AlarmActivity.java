@@ -55,4 +55,9 @@ public class AlarmActivity extends AppCompatActivity
             Toast.makeText(AlarmActivity.this, "ALARM OFF", Toast.LENGTH_SHORT).show();
         }
     }
+
+    public void onCharities(View view) {
+        Intent intent = new Intent(this, CharitiesActivity.class);
+        startActivity(intent);
+    }
 }

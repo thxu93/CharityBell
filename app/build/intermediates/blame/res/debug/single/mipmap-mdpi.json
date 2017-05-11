@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/Adam/Documents/MobileApps/CharityBell/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/txu/Downloads/CharityBell/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
-        "source": "/Users/Adam/Documents/MobileApps/CharityBell/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/txu/Downloads/CharityBell/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     }
 ]

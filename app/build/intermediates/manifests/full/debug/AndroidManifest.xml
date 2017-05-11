@@ -37,6 +37,7 @@
 
         <activity android:name="edu.tacoma.uw.xut.charitybell.LoginActivity" />
         <activity android:name="edu.tacoma.uw.xut.charitybell.AlarmActivity" />
+        <activity android:name="edu.tacoma.uw.xut.charitybell.CharitiesActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"
