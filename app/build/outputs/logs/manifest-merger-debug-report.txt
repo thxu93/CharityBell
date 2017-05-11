@@ -23,9 +23,9 @@ MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Adam/.android/buil
 MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Adam/.android/build-cache/bb49c75cf0b5a74616e49f4981675c1bebdc543a/output/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.19.0] /Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/AndroidManifest.xml:28:5-48:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Adam/.android/build-cache/1cebcb6b7a05ee5255d71f2abdcb0f269c261dbd/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Adam/.android/build-cache/02c7e52d5a39705a1c9b4db1713544da2601ebf0/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/Adam/.android/build-cache/c20b5e4d592d36130747c25bc915a41a4556642b/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/Adam/.android/build-cache/ed50572dd19624cbd9bb0bc5404c4b68cf7101aa/output/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:customtabs:25.1.1] /Users/Adam/.android/build-cache/0cc3940536b408dc8e80038053810db861327e12/output/AndroidManifest.xml:22:5-20
 MERGED from [com.twitter.sdk.android:twitter:2.3.0] /Users/Adam/.android/build-cache/1f8d3b6ce3af424e189c23cd0558c8a5eeacd4f0/output/AndroidManifest.xml:25:5-20
 MERGED from [com.twitter.sdk.android:tweet-composer:2.3.0] /Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/AndroidManifest.xml:27:5-37:19
@@ -40,12 +40,12 @@ MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build
 MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Adam/.android/build-cache/520b21a4f89af1b790f6c0e3ff936b668d64c99c/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Adam/.android/build-cache/da0593c76448450b1ccffcbb95a25afedf18c3dd/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Adam/.android/build-cache/9dabcc4195273873c791b46438eea755ce068faa/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Adam/.android/build-cache/ccae603493a56e39dc13820de2bf652c4c4adcb9/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Adam/.android/build-cache/8eef667be588e0d7d8a43f70e71e1267ba5c3a6b/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Adam/.android/build-cache/eef0f769cfa1adc46c0daf8643756e39f12f7a1a/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Adam/.android/build-cache/9c666306562b341922bbf367508a58ed84b4f77c/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Adam/.android/build-cache/1fa3daadd42afe5836f078fe51298c69e6c4c2eb/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /Users/Adam/.android/build-cache/8045e3bf8a3c3d070eacbd560d77244a9bf5d28f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/Adam/.android/build-cache/27a516234f0d97116f47ce9596cb2aa6b65bda8c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/Adam/.android/build-cache/6b89017bce9301c9105e2a21e94b63c57f99fc06/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/Adam/.android/build-cache/5c1f4c188b37be8312124be7f22ed120acba4b58/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/Adam/.android/build-cache/5fcabff3bc0df14e5648cc02874dd4c20972fa23/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /Users/Adam/.android/build-cache/368146a61b4ab45a25bc7d7258f17dce624bd36b/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:8:9-37
 	android:supportsRtl
@@ -86,9 +86,9 @@ MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Adam/.andr
 MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] /Users/Adam/.android/build-cache/64a97c66a1d54426b4b68838d9a53fae1ce5f7c4/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/AndroidManifest.xml:17:5-43
 MERGED from [com.facebook.android:facebook-android-sdk:4.19.0] /Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Adam/.android/build-cache/1cebcb6b7a05ee5255d71f2abdcb0f269c261dbd/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Adam/.android/build-cache/02c7e52d5a39705a1c9b4db1713544da2601ebf0/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/Adam/.android/build-cache/c20b5e4d592d36130747c25bc915a41a4556642b/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/Adam/.android/build-cache/ed50572dd19624cbd9bb0bc5404c4b68cf7101aa/output/AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:customtabs:25.1.1] /Users/Adam/.android/build-cache/0cc3940536b408dc8e80038053810db861327e12/output/AndroidManifest.xml:20:5-44
 MERGED from [com.twitter.sdk.android:twitter:2.3.0] /Users/Adam/.android/build-cache/1f8d3b6ce3af424e189c23cd0558c8a5eeacd4f0/output/AndroidManifest.xml:23:5-44
 MERGED from [com.twitter.sdk.android:tweet-composer:2.3.0] /Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/AndroidManifest.xml:23:5-44
@@ -103,12 +103,12 @@ MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build
 MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Adam/.android/build-cache/520b21a4f89af1b790f6c0e3ff936b668d64c99c/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Adam/.android/build-cache/da0593c76448450b1ccffcbb95a25afedf18c3dd/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Adam/.android/build-cache/9dabcc4195273873c791b46438eea755ce068faa/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Adam/.android/build-cache/ccae603493a56e39dc13820de2bf652c4c4adcb9/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Adam/.android/build-cache/8eef667be588e0d7d8a43f70e71e1267ba5c3a6b/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Adam/.android/build-cache/eef0f769cfa1adc46c0daf8643756e39f12f7a1a/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Adam/.android/build-cache/9c666306562b341922bbf367508a58ed84b4f77c/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Adam/.android/build-cache/1fa3daadd42afe5836f078fe51298c69e6c4c2eb/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-v4:25.1.1] /Users/Adam/.android/build-cache/8045e3bf8a3c3d070eacbd560d77244a9bf5d28f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/Adam/.android/build-cache/27a516234f0d97116f47ce9596cb2aa6b65bda8c/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/Adam/.android/build-cache/6b89017bce9301c9105e2a21e94b63c57f99fc06/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/Adam/.android/build-cache/5c1f4c188b37be8312124be7f22ed120acba4b58/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/Adam/.android/build-cache/5fcabff3bc0df14e5648cc02874dd4c20972fa23/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] /Users/Adam/.android/build-cache/368146a61b4ab45a25bc7d7258f17dce624bd36b/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.1.1] /Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -283,20 +283,6 @@ ADDED from [com.facebook.android:facebook-android-sdk:4.19.0] /Users/Adam/.andro
 		ADDED from [com.facebook.android:facebook-android-sdk:4.19.0] /Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/AndroidManifest.xml:47:13-37
 	android:name
 		ADDED from [com.facebook.android:facebook-android-sdk:4.19.0] /Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/AndroidManifest.xml:45:13-70
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/Adam/.android/build-cache/1cebcb6b7a05ee5255d71f2abdcb0f269c261dbd/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/Adam/.android/build-cache/02c7e52d5a39705a1c9b4db1713544da2601ebf0/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/Adam/.android/build-cache/9dabcc4195273873c791b46438eea755ce068faa/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/Adam/.android/build-cache/ccae603493a56e39dc13820de2bf652c4c4adcb9/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/Adam/.android/build-cache/8eef667be588e0d7d8a43f70e71e1267ba5c3a6b/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/Adam/.android/build-cache/eef0f769cfa1adc46c0daf8643756e39f12f7a1a/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/Adam/.android/build-cache/9c666306562b341922bbf367508a58ed84b4f77c/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/Adam/.android/build-cache/1fa3daadd42afe5836f078fe51298c69e6c4c2eb/output/AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/Adam/.android/build-cache/de975495fc7f62861f3031f043f3c9dde4a3dded/output/AndroidManifest.xml:26:9-47
 activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
 ADDED from [com.twitter.sdk.android:tweet-composer:2.3.0] /Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/AndroidManifest.xml:28:9-31:71
 	android:exported
