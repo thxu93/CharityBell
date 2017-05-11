@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/txu/Downloads/CharityBell/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/txu/.android/build-cache/eafcc45dbe9bd3ac3cbd54c80e01d98212d007e4/output/res/values/values.xml",
+                    "file": "/Users/Adam/.android/build-cache/9efd7c2d6d1253e4142ebcf625a2c17b03f68e52/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
