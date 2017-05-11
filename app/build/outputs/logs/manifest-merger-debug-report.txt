@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/txu/.android/build-cache/cbe7aa3d1a3772915882f492fc43af8a85f1142d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/txu/.android/build-cache/514a8b76747e970713a3a1f75ca27d414be4d6a7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/txu/.android/build-cache/26b17397c29564dda0b0ac1e0e0381c98e573d7b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/txu/.android/build-cache/c1b21c85bbfd2cb421de388c984651cf6e2d63e0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/txu/.android/build-cache/909575fe1b50e8efcb6980b1c7af30aadd656494/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/txu/.android/build-cache/4da9a9bbc1e18e1616b6211c398ee57e4c2e7919/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/txu/.android/build-cache/1fee5fcbe43f7a7af49092bda90bc4805b14f99d/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/txu/.android/build-cache/188f7ee9972ac9d5221e373eb06ca8340e25e57e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/txu/.android/build-cache/a83894a7df403962bda9070cc0045a64f09ea471/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:8:9-37
+	android:supportsRtl
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:10:9-40
+activity#edu.tacoma.uw.xut.charitybell.AlarmActivity
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:11:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:15:27-74
+receiver#edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:19:9-68
+	android:name
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:19:19-56
+activity#edu.tacoma.uw.xut.charitybell.CharityActivity
+ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:21:9-62
+	android:name
+		ADDED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml:21:19-50
+uses-sdk
+INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/txu/.android/build-cache/cbe7aa3d1a3772915882f492fc43af8a85f1142d/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/txu/.android/build-cache/514a8b76747e970713a3a1f75ca27d414be4d6a7/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/txu/.android/build-cache/26b17397c29564dda0b0ac1e0e0381c98e573d7b/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/txu/.android/build-cache/c1b21c85bbfd2cb421de388c984651cf6e2d63e0/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/txu/.android/build-cache/909575fe1b50e8efcb6980b1c7af30aadd656494/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/txu/.android/build-cache/4da9a9bbc1e18e1616b6211c398ee57e4c2e7919/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/txu/.android/build-cache/1fee5fcbe43f7a7af49092bda90bc4805b14f99d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/txu/.android/build-cache/188f7ee9972ac9d5221e373eb06ca8340e25e57e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/txu/.android/build-cache/a83894a7df403962bda9070cc0045a64f09ea471/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/txu/Downloads/CharityBell/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/txu/.android/build-cache/cbe7aa3d1a3772915882f492fc43af8a85f1142d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/txu/.android/build-cache/514a8b76747e970713a3a1f75ca27d414be4d6a7/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/txu/.android/build-cache/26b17397c29564dda0b0ac1e0e0381c98e573d7b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/txu/.android/build-cache/c1b21c85bbfd2cb421de388c984651cf6e2d63e0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/txu/.android/build-cache/909575fe1b50e8efcb6980b1c7af30aadd656494/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/txu/.android/build-cache/4da9a9bbc1e18e1616b6211c398ee57e4c2e7919/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/txu/.android/build-cache/1fee5fcbe43f7a7af49092bda90bc4805b14f99d/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/txu/.android/build-cache/188f7ee9972ac9d5221e373eb06ca8340e25e57e/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/AndroidManifest.xml:26:9-47

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/txu/.android/build-cache/ac6b72dd674d17b6b718afe12eccd111baedc9e5/output/res/layout-v21/notification_action.xml"
+    }
+]
