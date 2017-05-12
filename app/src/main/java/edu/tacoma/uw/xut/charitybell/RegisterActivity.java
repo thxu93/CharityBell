@@ -74,23 +74,26 @@ public class RegisterActivity extends AppCompatActivity {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
                                             if (task.isSuccessful()) {
+                                                // Creates user keys and values into Firebase DB
                                                 mDatabase.child("users").child(mAuth.getCurrentUser()
                                                         .getUid()).child("name")
                                                         .setValue(mAuth.getCurrentUser()
                                                                 .getDisplayName());
+                                                mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                        .getUid()).child("email")
+                                                        .setValue(mAuth.getCurrentUser()
+                                                                .getEmail());
+                                                mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                        .getUid()).child("alarm").child("minutes").setValue(0);
+                                                mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                        .getUid()).child("alarm").child("hour").setValue(0);
 
-                                                Toast.makeText(getApplicationContext(),
-                                                        mAuth.getCurrentUser().getDisplayName(),
-                                                        Toast.LENGTH_SHORT).show();
-                                                Toast.makeText(getApplicationContext(),
-                                                        mAuth.getCurrentUser().getUid(),
-                                                        Toast.LENGTH_SHORT).show();
                                             }
                                         }
                                     });
 
                                     Toast.makeText(RegisterActivity.this, "Account Created!", Toast.LENGTH_SHORT).show();
-                                    startActivity(new Intent(RegisterActivity.this, AlarmActivity.class));
+                                    startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                                     finish();
                                 } else {
                                     Toast.makeText(RegisterActivity.this, "Could not create account: " + task.getException().getMessage(),

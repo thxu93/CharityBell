@@ -6,18 +6,33 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.Calendar;
+import java.util.Date;
 
 public class AlarmActivity extends AppCompatActivity
 {
-    TimePicker alarmTimePicker;
-    PendingIntent pendingIntent;
-    AlarmManager alarmManager;
+    private static final String TAG = "AlarmActivity";
+    private TimePicker alarmTimePicker;
+    private PendingIntent pendingIntent;
+    private AlarmManager alarmManager;
+    private TextView nameText;
+    private DatabaseReference mDatabase;
+    private FirebaseUser currUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -26,6 +41,39 @@ public class AlarmActivity extends AppCompatActivity
         setContentView(R.layout.activity_alarm);
         alarmTimePicker = (TimePicker) findViewById(R.id.timePicker);
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+        nameText = (TextView) findViewById(R.id.userName);
+        currUser = FirebaseAuth.getInstance().getCurrentUser();
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
+
+        if (currUser != null) {
+            // User is signed in
+            nameText.setText("Welcome, " + currUser.getDisplayName() + "!");
+            //Read current time data from DB
+            ValueEventListener alarmDataListener = new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+
+                    // Set previous alarm value from the Firebase DB to the timepicker.
+                    Object theHour = dataSnapshot.child("hour").getValue();
+                    Object theMinutes = dataSnapshot.child("minutes").getValue();
+                    alarmTimePicker.setCurrentHour(Integer.parseInt(theHour.toString()));
+                    alarmTimePicker.setCurrentMinute(Integer.parseInt(theMinutes.toString()));
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+                    // Getting Post failed, log a message
+                    Log.w(TAG, "loadPost:onCancelled", databaseError.toException());
+                }
+            };
+            // Registers the ValueEventListener to the current user with the given UID key.
+            mDatabase.child("users").child(currUser.getUid()).child("alarm")
+                    .addValueEventListener(alarmDataListener);
+        } else {
+            // No user is signed in
+            startActivity(new Intent(AlarmActivity.this, LoginActivity.class));
+        }
     }
     public void OnToggleClicked(View view)
     {
@@ -36,6 +84,7 @@ public class AlarmActivity extends AppCompatActivity
             Calendar calendar = Calendar.getInstance();
             calendar.set(Calendar.HOUR_OF_DAY, alarmTimePicker.getCurrentHour());
             calendar.set(Calendar.MINUTE, alarmTimePicker.getCurrentMinute());
+
             Intent intent = new Intent(this, AlarmReceiverActivity.class);
             pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0);
 
@@ -48,6 +97,14 @@ public class AlarmActivity extends AppCompatActivity
                     time = time + (1000*60*60*24);
             }
             alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, time, 10000, pendingIntent);
+
+            // Posts the Alarm time to the Firebase DB when set so it can be re-set on login.
+            mDatabase.child("users").child(currUser
+                    .getUid()).child("alarm").child("hour")
+                    .setValue(alarmTimePicker.getCurrentHour().toString());
+            mDatabase.child("users").child(currUser
+                    .getUid()).child("alarm").child("minutes")
+                    .setValue(alarmTimePicker.getCurrentMinute().toString());
         }
         else
         {
