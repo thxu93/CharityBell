@@ -16,7 +16,6 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-import org.w3c.dom.Text;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -24,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
     private Button mLoginButton;
     private EditText mEmail, mPassword;
     private FirebaseAuth mAuth;
-    private TextView mLoginText;
+    private TextView mRegisterTextLink;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         mLoginButton = (Button) findViewById(R.id.loginButton);
         mEmail = (EditText) findViewById(R.id.emailInput);
         mPassword = (EditText) findViewById(R.id.passwordInput);
-
+        mRegisterTextLink = (TextView) findViewById(R.id.registerTextLink);
         mAuth = FirebaseAuth.getInstance();
 
 
@@ -76,6 +75,14 @@ public class LoginActivity extends AppCompatActivity {
                                 }
                             }
                         });
+            }
+        });
+
+        mRegisterTextLink.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(intent);
             }
         });
     }

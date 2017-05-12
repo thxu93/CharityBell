@@ -25,7 +25,7 @@
         android:label="Charity Bell"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="edu.tacoma.uw.xut.charitybell.RegisterActivity" >
+        <activity android:name="edu.tacoma.uw.xut.charitybell.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,7 +35,9 @@
 
         <receiver android:name="edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity" />
 
-        <activity android:name="edu.tacoma.uw.xut.charitybell.LoginActivity" />
+        <service android:name="edu.tacoma.uw.xut.charitybell.RingtoneService" />
+
+        <activity android:name="edu.tacoma.uw.xut.charitybell.RegisterActivity" />
         <activity android:name="edu.tacoma.uw.xut.charitybell.AlarmActivity" />
         <activity android:name="edu.tacoma.uw.xut.charitybell.CharitiesActivity" />
 
@@ -182,7 +184,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
                 <category android:name="edu.tacoma.uw.xut.charitybell" />
             </intent-filter>

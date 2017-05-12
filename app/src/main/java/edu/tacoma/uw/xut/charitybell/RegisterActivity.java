@@ -8,20 +8,20 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.UserProfileChangeRequest;
 
 public class RegisterActivity extends AppCompatActivity {
 
     private Button mRegisterButton;
-    private EditText mEmail, mPassword;
+    private EditText mEmail, mPassword, mDisplayName;
     private FirebaseAuth mAuth;
-    private TextView mLoginText;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +32,8 @@ public class RegisterActivity extends AppCompatActivity {
         mRegisterButton = (Button) findViewById(R.id.registerButton);
         mEmail = (EditText) findViewById(R.id.emailRegister);
         mPassword = (EditText) findViewById(R.id.passwordRegister);
-        mLoginText = (TextView) findViewById(R.id.loginTextView);
+        mDisplayName = (EditText) findViewById(R.id.nameRegister);
+
 
         mRegisterButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +63,21 @@ public class RegisterActivity extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
+                                    UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
+                                            .setDisplayName(mDisplayName.getText().toString())
+                                            .build();
+                                    mAuth.getCurrentUser().updateProfile(profileUpdates)
+                                            .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()) {
+                                                Toast.makeText(getApplicationContext(),
+                                                        mAuth.getCurrentUser().getDisplayName(),
+                                                        Toast.LENGTH_SHORT).show();
+                                            }
+                                        }
+                                    });;
+
                                     Toast.makeText(RegisterActivity.this, "Account Created!", Toast.LENGTH_SHORT).show();
                                     startActivity(new Intent(RegisterActivity.this, AlarmActivity.class));
                                     finish();
@@ -76,12 +92,6 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        mLoginText.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
-            }
-        });
     }
 
 }
