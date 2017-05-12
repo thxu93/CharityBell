@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
+        jar="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="abdb414e5be58beeee362b1fbdcb69ca53d4315a">
+        <dex dex="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_029bbb08728d2b141ba941bcb618a90cb09860de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d758ee8ea9f0e12b83a15f82f04a480e10642322/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa2f7374e81e876c300b6cc475a85e81c661310d">
-        <dex dex="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_029bbb08728d2b141ba941bcb618a90cb09860de/classes.dex" />
     </item>
 
 </items>

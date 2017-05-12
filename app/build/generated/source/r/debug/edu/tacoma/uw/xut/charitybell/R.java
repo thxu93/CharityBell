@@ -3995,7 +3995,7 @@ containing a value of this type.
         public static final int edit_query=0x7f0f0082;
         public static final int email=0x7f0f009d;
         public static final int emailInput=0x7f0f0093;
-        public static final int emailRegister=0x7f0f0095;
+        public static final int emailRegister=0x7f0f0096;
         public static final int email_layout=0x7f0f009c;
         public static final int email_provider=0x7f0f009b;
         public static final int end=0x7f0f0035;
@@ -4044,7 +4044,7 @@ containing a value of this type.
         public static final int mini=0x7f0f0041;
         public static final int multiply=0x7f0f0028;
         public static final int name=0x7f0f00db;
-        public static final int nameRegister=0x7f0f0096;
+        public static final int nameRegister=0x7f0f0095;
         public static final int name_layout=0x7f0f00da;
         public static final int navigation_header_container=0x7f0f00b5;
         public static final int never=0x7f0f0049;

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:2:1-25:12
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml
@@ -14,14 +14,14 @@ ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidMani
 		INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:5:5-23:19
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:4:5-22:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Adam/.android/build-cache/d55464c92f82cc2b1db6b97172c6127c6a3750ab/output/AndroidManifest.xml:9:5-20
 MERGED from [com.firebaseui:firebase-ui-auth:1.2.0] /Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/AndroidManifest.xml:14:5-69:19
 MERGED from [com.android.support:design:25.1.1] /Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:transition:25.1.1] /Users/Adam/.android/build-cache/98c13504814b22de1c0627dfbf011fc8a139d2c6/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Adam/.android/build-cache/989943f26c053244887293d135993474bc139fdf/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:10.2.1] /Users/Adam/.android/build-cache/405d313f5744f919f4c1dcdfc6ab9b017b39c55e/output/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Adam/.android/build-cache/bb49c75cf0b5a74616e49f4981675c1bebdc543a/output/AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.facebook.android:facebook-android-sdk:4.19.0] /Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/AndroidManifest.xml:28:5-48:19
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/Adam/.android/build-cache/c20b5e4d592d36130747c25bc915a41a4556642b/output/AndroidManifest.xml:22:5-20
@@ -33,13 +33,13 @@ MERGED from [com.twitter.sdk.android:tweet-ui:2.3.0] /Users/Adam/.android/build-
 MERGED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/AndroidManifest.xml:27:5-40:19
 MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/Adam/.android/build-cache/569d541c8965186455039d1fdc3fa5a8fad13071/output/AndroidManifest.xml:27:5-20
 MERGED from [com.android.support:cardview-v7:25.1.1] /Users/Adam/.android/build-cache/1fb7d82ac8591e8d8ceb2a794d9ab811f8e2fdc6/output/AndroidManifest.xml:22:5-20
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/Adam/.android/build-cache/a5eabd00947bf8e5db25a224ce7460ee68e5c617/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Adam/.android/build-cache/61a307ce5e712a41be37180a3986a11a55247a90/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Adam/.android/build-cache/520b21a4f89af1b790f6c0e3ff936b668d64c99c/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Adam/.android/build-cache/da0593c76448450b1ccffcbb95a25afedf18c3dd/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.firebase:firebase-core:10.2.1] /Users/Adam/.android/build-cache/965e0204cc5554c33ae45c6cc51aa9d48631b8ae/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/Adam/.android/build-cache/8d77371fccd115c280b5e486087b4befec958c70/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] /Users/Adam/.android/build-cache/005b93ee15c87c9bc742f01650a08e94913252c0/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/Adam/.android/build-cache/f86ceba9ea35cb0126b353c8d514912e7c946a3d/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/Adam/.android/build-cache/bf1611d6c911d8ae86b8947e4c39e6adce3996fd/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.1.1] /Users/Adam/.android/build-cache/8045e3bf8a3c3d070eacbd560d77244a9bf5d28f/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-fragment:25.1.1] /Users/Adam/.android/build-cache/27a516234f0d97116f47ce9596cb2aa6b65bda8c/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-media-compat:25.1.1] /Users/Adam/.android/build-cache/6b89017bce9301c9105e2a21e94b63c57f99fc06/output/AndroidManifest.xml:25:5-20
@@ -47,41 +47,41 @@ MERGED from [com.android.support:support-core-ui:25.1.1] /Users/Adam/.android/bu
 MERGED from [com.android.support:support-core-utils:25.1.1] /Users/Adam/.android/build-cache/5fcabff3bc0df14e5648cc02874dd4c20972fa23/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.1.1] /Users/Adam/.android/build-cache/368146a61b4ab45a25bc7d7258f17dce624bd36b/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:8:9-37
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:7:9-37
 	android:supportsRtl
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:8:9-35
 	android:allowBackup
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:5:9-35
 	android:icon
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:6:9-43
 	android:theme
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:10:9-40
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:9:9-40
 activity#edu.tacoma.uw.xut.charitybell.LoginActivity
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:11:9-17:20
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:10:9-16:20
 	android:name
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:11:19-48
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:10:19-48
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:12:13-16:29
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:11:13-15:29
 action#android.intent.action.MAIN
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:13:17-69
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:12:17-69
 	android:name
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:13:25-66
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:12:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:14:17-77
 	android:name
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:14:27-74
 receiver#edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:19:9-59
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:18:9-59
 	android:name
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:19:19-56
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:18:19-56
 activity#edu.tacoma.uw.xut.charitybell.RegisterActivity
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:21:9-54
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:20:9-54
 	android:name
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:21:19-51
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:20:19-51
 activity#edu.tacoma.uw.xut.charitybell.AlarmActivity
-ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:22:9-60
+ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:21:9-60
 	android:name
-		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:22:19-48
+		ADDED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml:21:19-48
 uses-sdk
 INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Adam/.android/build-cache/d55464c92f82cc2b1db6b97172c6127c6a3750ab/output/AndroidManifest.xml:5:5-7:41
@@ -89,10 +89,10 @@ MERGED from [com.firebaseui:firebase-ui-auth:1.2.0] /Users/Adam/.android/build-c
 MERGED from [com.android.support:design:25.1.1] /Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.1.1] /Users/Adam/.android/build-cache/9488e7d3e299456eaffe2056f01a47143ceb612f/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.1.1] /Users/Adam/.android/build-cache/98c13504814b22de1c0627dfbf011fc8a139d2c6/output/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:10.2.0] /Users/Adam/.android/build-cache/989943f26c053244887293d135993474bc139fdf/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.1] /Users/Adam/.android/build-cache/405d313f5744f919f4c1dcdfc6ab9b017b39c55e/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Adam/.android/build-cache/bb49c75cf0b5a74616e49f4981675c1bebdc543a/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] /Users/Adam/.android/build-cache/64a97c66a1d54426b4b68838d9a53fae1ce5f7c4/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-base:10.2.0] /Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/AndroidManifest.xml:17:5-43
 MERGED from [com.facebook.android:facebook-android-sdk:4.19.0] /Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/Adam/.android/build-cache/c20b5e4d592d36130747c25bc915a41a4556642b/output/AndroidManifest.xml:20:5-44
@@ -104,15 +104,15 @@ MERGED from [com.twitter.sdk.android:tweet-ui:2.3.0] /Users/Adam/.android/build-
 MERGED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/AndroidManifest.xml:23:5-44
 MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/Adam/.android/build-cache/569d541c8965186455039d1fdc3fa5a8fad13071/output/AndroidManifest.xml:23:5-43
 MERGED from [com.android.support:cardview-v7:25.1.1] /Users/Adam/.android/build-cache/1fb7d82ac8591e8d8ceb2a794d9ab811f8e2fdc6/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-database:10.0.1] /Users/Adam/.android/build-cache/6ffa2c44caad7301d38fe44ed37ea68893fc02a5/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /Users/Adam/.android/build-cache/84af09630c0d08ed898bf85ed1d313ac51b35fe8/output/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/Adam/.android/build-cache/a5eabd00947bf8e5db25a224ce7460ee68e5c617/output/AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Adam/.android/build-cache/61a307ce5e712a41be37180a3986a11a55247a90/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.0] /Users/Adam/.android/build-cache/520b21a4f89af1b790f6c0e3ff936b668d64c99c/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Adam/.android/build-cache/da0593c76448450b1ccffcbb95a25afedf18c3dd/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.1] /Users/Adam/.android/build-cache/8e3a960ba152be3cca31d45b693dd2dbb8fcd2b9/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.1] /Users/Adam/.android/build-cache/e5e31593ee40df12e2169a43b7784270272e1e2b/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-core:10.2.1] /Users/Adam/.android/build-cache/965e0204cc5554c33ae45c6cc51aa9d48631b8ae/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/Adam/.android/build-cache/8d77371fccd115c280b5e486087b4befec958c70/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] /Users/Adam/.android/build-cache/005b93ee15c87c9bc742f01650a08e94913252c0/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /Users/Adam/.android/build-cache/f86ceba9ea35cb0126b353c8d514912e7c946a3d/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/Adam/.android/build-cache/bf1611d6c911d8ae86b8947e4c39e6adce3996fd/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:25.1.1] /Users/Adam/.android/build-cache/8045e3bf8a3c3d070eacbd560d77244a9bf5d28f/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.1.1] /Users/Adam/.android/build-cache/27a516234f0d97116f47ce9596cb2aa6b65bda8c/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.1.1] /Users/Adam/.android/build-cache/6b89017bce9301c9105e2a21e94b63c57f99fc06/output/AndroidManifest.xml:21:5-23:63
@@ -129,9 +129,9 @@ MERGED from [com.android.support:support-compat:25.1.1] /Users/Adam/.android/bui
 		INJECTED from /Users/Adam/Documents/MobileApps/CharityBell/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.firebaseui:firebase-ui-auth:1.2.0] /Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/AndroidManifest.xml:11:5-79
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Adam/.android/build-cache/61a307ce5e712a41be37180a3986a11a55247a90/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/Adam/.android/build-cache/8d77371fccd115c280b5e486087b4befec958c70/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:19:5-78
 	android:name
 		ADDED from [com.firebaseui:firebase-ui-auth:1.2.0] /Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/AndroidManifest.xml:11:22-76
 uses-permission#android.permission.INTERNET
@@ -140,14 +140,14 @@ MERGED from [com.twitter.sdk.android:tweet-composer:2.3.0] /Users/Adam/.android/
 MERGED from [com.twitter.sdk.android:tweet-ui:2.3.0] /Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/AndroidManifest.xml:25:5-67
 MERGED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/AndroidManifest.xml:25:5-67
 MERGED from [io.fabric.sdk.android:fabric:1.3.14] /Users/Adam/.android/build-cache/569d541c8965186455039d1fdc3fa5a8fad13071/output/AndroidManifest.xml:25:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Adam/.android/build-cache/61a307ce5e712a41be37180a3986a11a55247a90/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/Adam/.android/build-cache/8d77371fccd115c280b5e486087b4befec958c70/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from [com.firebaseui:firebase-ui-auth:1.2.0] /Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/AndroidManifest.xml:12:22-64
 meta-data#com.google.android.gms.version
 ADDED from [com.firebaseui:firebase-ui-auth:1.2.0] /Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/AndroidManifest.xml:15:9-17:69
-MERGED from [com.google.android.gms:play-services-basement:10.2.0] /Users/Adam/.android/build-cache/da0593c76448450b1ccffcbb95a25afedf18c3dd/output/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /Users/Adam/.android/build-cache/bf1611d6c911d8ae86b8947e4c39e6adce3996fd/output/AndroidManifest.xml:20:9-121
 	android:value
 		ADDED from [com.firebaseui:firebase-ui-auth:1.2.0] /Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/AndroidManifest.xml:17:13-66
 	android:name
@@ -274,13 +274,13 @@ ADDED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Adam/.andro
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:10.2.0] /Users/Adam/.android/build-cache/bb49c75cf0b5a74616e49f4981675c1bebdc543a/output/AndroidManifest.xml:24:18-63
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:10.2.0] /Users/Adam/.android/build-cache/f69fc6a81ba6927e4489fe850cfbda9d81e16e6d/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/AndroidManifest.xml:19:19-85
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-android-sdk:4.19.0] /Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/AndroidManifest.xml:33:9-71
 	android:name
@@ -348,106 +348,102 @@ ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/Adam/.android/bui
 	android:name
 		ADDED from [com.twitter.sdk.android:twitter-core:2.3.0] /Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/AndroidManifest.xml:34:13-84
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Adam/.android/build-cache/61a307ce5e712a41be37180a3986a11a55247a90/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/Adam/.android/build-cache/8d77371fccd115c280b5e486087b4befec958c70/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Adam/.android/build-cache/61a307ce5e712a41be37180a3986a11a55247a90/output/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/Adam/.android/build-cache/8d77371fccd115c280b5e486087b4befec958c70/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/Adam/.android/build-cache/61a307ce5e712a41be37180a3986a11a55247a90/output/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] /Users/Adam/.android/build-cache/8d77371fccd115c280b5e486087b4befec958c70/output/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/Adam/.android/build-cache/287fb88f5752bb5f64fa1c14fede3bc10923444c/output/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] /Users/Adam/.android/build-cache/1c053dc4b927bb1c5bfc21d001cc0164cfc29082/output/AndroidManifest.xml:32:16-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:30:9-36:20
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:30:19-84
-intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:31:13-35:29
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:32:25-78
-action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:33:17-85
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:33:25-83
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/Adam/.android/build-cache/01b070bdb4650093122d59d1d8e3bbaf9a781c14/output/AndroidManifest.xml:46:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] /Users/Adam/.android/build-cache/fb90764f03a5595638c8d8859af10b08ae6f9d25/output/AndroidManifest.xml:45:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/Adam/.android/build-cache/005b93ee15c87c9bc742f01650a08e94913252c0/output/AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/Adam/.android/build-cache/005b93ee15c87c9bc742f01650a08e94913252c0/output/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/Adam/.android/build-cache/005b93ee15c87c9bc742f01650a08e94913252c0/output/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/Adam/.android/build-cache/005b93ee15c87c9bc742f01650a08e94913252c0/output/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.0] /Users/Adam/.android/build-cache/7ab6faefec8b017657ff96479d7e98e58cd6e7df/output/AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.1] /Users/Adam/.android/build-cache/005b93ee15c87c9bc742f01650a08e94913252c0/output/AndroidManifest.xml:6:79-143

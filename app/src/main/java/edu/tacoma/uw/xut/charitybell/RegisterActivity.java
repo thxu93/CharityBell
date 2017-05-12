@@ -15,19 +15,22 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.UserProfileChangeRequest;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class RegisterActivity extends AppCompatActivity {
 
     private Button mRegisterButton;
     private EditText mEmail, mPassword, mDisplayName;
     private FirebaseAuth mAuth;
-
+    private DatabaseReference mDatabase;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         mAuth = FirebaseAuth.getInstance();
+        mDatabase = FirebaseDatabase.getInstance().getReference();
 
         mRegisterButton = (Button) findViewById(R.id.registerButton);
         mEmail = (EditText) findViewById(R.id.emailRegister);
@@ -71,12 +74,20 @@ public class RegisterActivity extends AppCompatActivity {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
                                             if (task.isSuccessful()) {
+                                                mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                        .getUid()).child("name")
+                                                        .setValue(mAuth.getCurrentUser()
+                                                                .getDisplayName());
+
                                                 Toast.makeText(getApplicationContext(),
                                                         mAuth.getCurrentUser().getDisplayName(),
                                                         Toast.LENGTH_SHORT).show();
+                                                Toast.makeText(getApplicationContext(),
+                                                        mAuth.getCurrentUser().getUid(),
+                                                        Toast.LENGTH_SHORT).show();
                                             }
                                         }
-                                    });;
+                                    });
 
                                     Toast.makeText(RegisterActivity.this, "Account Created!", Toast.LENGTH_SHORT).show();
                                     startActivity(new Intent(RegisterActivity.this, AlarmActivity.class));

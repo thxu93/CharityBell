@@ -1245,7 +1245,7 @@ int id display_always 0x7f0f0059
 int id edit_query 0x7f0f0082
 int id email 0x7f0f009d
 int id emailInput 0x7f0f0093
-int id emailRegister 0x7f0f0095
+int id emailRegister 0x7f0f0096
 int id email_layout 0x7f0f009c
 int id email_provider 0x7f0f009b
 int id end 0x7f0f0035
@@ -1294,7 +1294,7 @@ int id middle 0x7f0f0043
 int id mini 0x7f0f0041
 int id multiply 0x7f0f0028
 int id name 0x7f0f00db
-int id nameRegister 0x7f0f0096
+int id nameRegister 0x7f0f0095
 int id name_layout 0x7f0f00da
 int id navigation_header_container 0x7f0f00b5
 int id never 0x7f0f0049
