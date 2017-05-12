@@ -48,6 +48,7 @@ public class AlarmActivity extends AppCompatActivity
 
         if (currUser != null) {
             // User is signed in
+            // Displays currently authenticated user's display name.
             nameText.setText("Welcome, " + currUser.getDisplayName() + "!");
             //Read current time data from DB
             ValueEventListener alarmDataListener = new ValueEventListener() {
