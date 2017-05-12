@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class RegisterActivity extends AppCompatActivity {
 
     private Button mRegisterButton;
-    private EditText mEmail, mgit Password, mDisplayName;
+    private EditText mEmail, mPassword, mDisplayName;
     private FirebaseAuth mAuth;
 
     private DatabaseReference mDatabase;
@@ -39,6 +39,80 @@ public class RegisterActivity extends AppCompatActivity {
         mDisplayName = (EditText) findViewById(R.id.nameRegister);
 
 
+        mRegisterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                String email = mEmail.getText().toString().trim();
+                String password = mPassword.getText().toString().trim();
+                String name = mDisplayName.getText().toString().trim();
+
+                if (TextUtils.isEmpty(email)) {
+                    Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if (TextUtils.isEmpty(password)) {
+                    Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if (password.length() < 6) {
+                    Toast.makeText(getApplicationContext(), "Password too short, enter minimum 6 characters!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                if (TextUtils.isEmpty(name)) {
+                    Toast.makeText(getApplicationContext(), "Enter a name!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                //create user
+                mAuth.createUserWithEmailAndPassword(email, password)
+                        .addOnCompleteListener(RegisterActivity.this, new OnCompleteListener<AuthResult>() {
+                            @Override
+                            public void onComplete(@NonNull Task<AuthResult> task) {
+                                if (task.isSuccessful()) {
+                                    UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
+                                            .setDisplayName(mDisplayName.getText().toString())
+                                            .build();
+                                        mAuth.getCurrentUser().updateProfile(profileUpdates)
+                                            .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            // Creates user keys and values into Firebase DB
+                                            mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                .getUid()).child("name")
+                                                .setValue(mAuth.getCurrentUser()
+                                                .getDisplayName());
+                                            mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                .getUid()).child("email")
+                                                .setValue(mAuth.getCurrentUser()
+                                                .getEmail());
+                                            mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                .getUid()).child("alarm").child("minutes").setValue(0);
+                                            mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                .getUid()).child("alarm").child("hour").setValue(0);
+
+                                            }
+                                        }
+                                    });
+
+                                    Toast.makeText(RegisterActivity.this, "Account Created!", Toast.LENGTH_SHORT).show();
+                                    startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                                    finish();
+                                } else {
+                                    Toast.makeText(RegisterActivity.this, "Could not create account: " + task.getException().getMessage(),
+                                    Toast.LENGTH_LONG).show();
+                                }
+
+                            }
+                        });
+
+            }
+        });
+
+    }
 
 }
