@@ -1,3 +1,12 @@
+/**
+ * Charity Bell
+ * Adam Waldron and Thomas Xu
+ * TCSS450
+ *
+ * AlarmReceiverActivity
+ * This class represents the receiver class for the alarm, this provides the functionality
+ * for when the alarm is triggered.
+ */
 package edu.tacoma.uw.xut.charitybell;
 
 import android.app.NotificationManager;
@@ -11,11 +20,16 @@ import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
-import android.widget.ToggleButton;
+
 
 public class AlarmReceiverActivity extends BroadcastReceiver
 {
     Ringtone ringtone;
+    /**
+     * This method fires when the alarm goes off.
+     * @param context
+     * @param intent
+     */
     @Override
     public void onReceive(Context context, Intent intent)
     {

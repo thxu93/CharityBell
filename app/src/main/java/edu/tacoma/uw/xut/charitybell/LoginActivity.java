@@ -1,3 +1,12 @@
+/**
+ * Charity Bell
+ * Adam Waldron and Thomas Xu
+ * TCSS450
+ *
+ * LoginActivity
+ * This activity class represents the login screen and main activity for the application. The user
+ * must log in or create an account from this activity.
+ */
 package edu.tacoma.uw.xut.charitybell;
 
 import android.content.Intent;
@@ -78,6 +87,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        // Click listener for text at bottom prompting user to register.
         mRegisterTextLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

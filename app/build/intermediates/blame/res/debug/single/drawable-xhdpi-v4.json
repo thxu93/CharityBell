@@ -292,6 +292,7 @@
         "source": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_black_36dp.png",
         "source": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
     },
@@ -302,6 +303,18 @@
     {
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00041.png",
         "source": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00041.png"
+=======
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tw__ic_retweet_dark.png",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable-xhdpi-v4/tw__ic_retweet_dark.png"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_large_white.png",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable-xhdpi-v4/messenger_bubble_large_white.png"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00051.png",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00051.png"
+>>>>>>> db8d33b7227717668d9f09a1b6ca791c12fbdfa7
     },
     {
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00028.png",
@@ -528,6 +541,7 @@
         "source": "/Users/txu/.android/build-cache/7dfdd88f699611cbd5d5f12c952e4766985c7d71/output/res/drawable-xhdpi-v4/tw__ic_vine_badge.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -538,6 +552,18 @@
     {
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_googleg_color_24dp.png",
         "source": "/Users/txu/.android/build-cache/12dd0bd86c8ffbb738140bb2a8dd09005c21b738/output/res/drawable-xhdpi-v4/ic_googleg_color_24dp.png"
+=======
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00027.png",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00027.png"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00021.png",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00021.png"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00052.png",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00052.png"
+>>>>>>> db8d33b7227717668d9f09a1b6ca791c12fbdfa7
     },
     {
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/tw__heart_animation_detail_60fps_00043.png",

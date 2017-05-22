@@ -1,3 +1,13 @@
+/**
+ * Charity Bell
+ * Adam Waldron and Thomas Xu
+ * TCSS450
+ *
+ * RegisterActivity
+ * This activity class represents the register activity. In this activity the user can create a new
+ * account with their name, email, and password. If the account is successfully created, the user is
+ * returned to the login page to log into the app.
+ */
 package edu.tacoma.uw.xut.charitybell;
 
 import android.content.Intent;
@@ -47,6 +57,7 @@ public class RegisterActivity extends AppCompatActivity {
                 String password = mPassword.getText().toString().trim();
                 String name = mDisplayName.getText().toString().trim();
 
+                // Form validation.
                 if (TextUtils.isEmpty(email)) {
                     Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
                     return;
@@ -67,7 +78,7 @@ public class RegisterActivity extends AppCompatActivity {
                     return;
                 }
 
-                //create user
+                // Creates a user with the user data provided and stores this data on the Firebase DB
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(RegisterActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override

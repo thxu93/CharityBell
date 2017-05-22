@@ -136,20 +136,34 @@
         "source": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_normal.9.png",
         "source": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+=======
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/tw__ic_video_play.png",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/drawable-hdpi-v4/tw__ic_video_play.png"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
+>>>>>>> db8d33b7227717668d9f09a1b6ca791c12fbdfa7
     },
     {
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_twitter_bird_white_24dp.png",
         "source": "/Users/txu/.android/build-cache/12dd0bd86c8ffbb738140bb2a8dd09005c21b738/output/res/drawable-hdpi-v4/ic_twitter_bird_white_24dp.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png",
         "source": "/Users/txu/.android/build-cache/1e5d6cf9d03c51f6ff385ed0105f23ec864abb0d/output/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/messenger_bubble_large_blue.png",
         "source": "/Users/txu/.android/build-cache/0008455cfb6fc3ed262367afe932403005b124c3/output/res/drawable-hdpi-v4/messenger_bubble_large_blue.png"
+=======
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+>>>>>>> db8d33b7227717668d9f09a1b6ca791c12fbdfa7
     },
     {
         "merged": "/Users/txu/Downloads/CharityBell/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png",
