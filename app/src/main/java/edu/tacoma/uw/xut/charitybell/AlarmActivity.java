@@ -1,3 +1,14 @@
+/**
+ * Charity Bell
+ * Adam Waldron and Thomas Xu
+ * TCSS450
+ *
+ * AlarmActivity
+ * This activity class represents the activity in which you will use the timepicker to set an
+ * alarm for a given user. When the alarm is set, the time is saved to the users account data, it
+ * will remain persistent on the Firebase DB and will re-set the timepicker to the last saved time
+ * every time the user logs in.
+ */
 package edu.tacoma.uw.xut.charitybell;
 
 
@@ -22,7 +33,6 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.Calendar;
-import java.util.Date;
 
 public class AlarmActivity extends AppCompatActivity
 {
@@ -46,6 +56,7 @@ public class AlarmActivity extends AppCompatActivity
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
 
+        // Checks if user is signed in.
         if (currUser != null) {
             // User is signed in
             // Displays currently authenticated user's display name.
@@ -76,6 +87,11 @@ public class AlarmActivity extends AppCompatActivity
             startActivity(new Intent(AlarmActivity.this, LoginActivity.class));
         }
     }
+
+    /**
+     * This method supplies the logic for the toggle button which sets and turns off the alarm.
+     * @param view
+     */
     public void OnToggleClicked(View view)
     {
         long time;
@@ -89,7 +105,7 @@ public class AlarmActivity extends AppCompatActivity
             Intent intent = new Intent(this, AlarmReceiverActivity.class);
             pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0);
 
-            time=(calendar.getTimeInMillis()-(calendar.getTimeInMillis()%60000));
+            time = (calendar.getTimeInMillis()-(calendar.getTimeInMillis()%60000));
             if(System.currentTimeMillis()>time)
             {
                 if (calendar.AM_PM == 0)
