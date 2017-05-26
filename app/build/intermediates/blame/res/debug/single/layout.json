@@ -64,6 +64,10 @@
         "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/layout/design_navigation_menu.xml"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/layout/alarm_list.xml",
+        "source": "/Users/Adam/Documents/MobileApps/CharityBell/app/src/main/res/layout/alarm_list.xml"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/layout/forgot_password_layout.xml",
         "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/layout/forgot_password_layout.xml"
     },
@@ -206,6 +210,10 @@
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/layout/com_facebook_login_fragment.xml",
         "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/layout/com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/layout/activity_list_alarm.xml",
+        "source": "/Users/Adam/Documents/MobileApps/CharityBell/app/src/main/res/layout/activity_list_alarm.xml"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/layout/messenger_button_send_blue_small.xml",

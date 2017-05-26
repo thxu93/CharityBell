@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
                                     Toast.makeText(LoginActivity.this, "Unable to log in. " +
                                             "Try again or register.", Toast.LENGTH_LONG).show();
                                 } else {
-                                    Intent intent = new Intent(LoginActivity.this, AlarmActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, ListAlarmActivity.class);
                                     startActivity(intent);
                                     finish();
                                 }

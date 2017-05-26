@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/alarm_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/add_alarm_wrapper"
+        android:layout_marginBottom="12dp"
+        android:orientation="vertical"
+        android:scrollbars="none"/>
+    <LinearLayout
+        android:id="@+id/add_alarm_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/add_alarm_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Add Alarm"
+            android:padding="12dp"
+            android:layout_margin="0dp"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+</RelativeLayout>

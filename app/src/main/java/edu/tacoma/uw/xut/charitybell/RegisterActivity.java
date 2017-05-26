@@ -101,9 +101,7 @@ public class RegisterActivity extends AppCompatActivity {
                                                         .setValue(mAuth.getCurrentUser()
                                                                 .getEmail());
                                                 mDatabase.child("users").child(mAuth.getCurrentUser()
-                                                        .getUid()).child("alarm").child("minutes").setValue(0);
-                                                mDatabase.child("users").child(mAuth.getCurrentUser()
-                                                        .getUid()).child("alarm").child("hour").setValue(0);
+                                                        .getUid()).child("alarms");
 
                                             }
                                         }
