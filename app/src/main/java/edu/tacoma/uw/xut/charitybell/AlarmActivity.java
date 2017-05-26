@@ -101,7 +101,7 @@ public class AlarmActivity extends AppCompatActivity {
                     calendar.set(Calendar.MINUTE, alarmTimePicker.getCurrentMinute());
 
                     Intent intent = new Intent(AlarmActivity.this, AlarmReceiverActivity.class);
-                    pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, (alarmNum), intent, 0);
+                    pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, alarmNum, intent, 0);
 
                     time = (calendar.getTimeInMillis() - (calendar.getTimeInMillis() % 60000));
                     if (System.currentTimeMillis() > time) {
@@ -123,14 +123,6 @@ public class AlarmActivity extends AppCompatActivity {
                             finish();
                         }
                     });
-//                    mDatabase.child("users").child(currUser
-//                            .getUid()).child("alarms").child("alarm" + (alarmNum)).child("minutes")
-//                            .setValue(alarmTimePicker.getCurrentMinute().toString()).addOnCompleteListener(new OnCompleteListener<Void>() {
-//                        @Override
-//                        public void onComplete(@NonNull Task<Void> task) {
-//                            finish();
-//                        }
-//                    });
                 }
             });
 

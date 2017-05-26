@@ -3,21 +3,426 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\awaldro1\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b20c3f9650e2d00c81a4f739353d5d681a473278">
-        <dex dex="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_029bbb08728d2b141ba941bcb618a90cb09860de/classes.dex" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_a5b52ac50486dd0650a1003e422d1505669c93b8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\awaldro1\.android\build-cache\1201e32918e6af05a3bf9d061590544728c11738\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d758ee8ea9f0e12b83a15f82f04a480e10642322/classes.dex" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b7360020d1092e37c1750509f9e3ccc9c9e2a38a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.twitter\twitter-text\1.13.0\78415b95ae3184c5926d593feab64bfc0b73b2dd\twitter-text-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78415b95ae3184c5926d593feab64bfc0b73b2dd">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\twitter-text-1.13.0_39afbbebe193ba66b907f0e776ebd2044eb927cc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\c4715e2004e3ca5b089ca0cffdd5ad6c1504f496\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e939b1ebc11d53163d5b85cc5988d1ee30dd7d74\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\8dcba9bd737092b3a4766a64b0d10ad6222eb409\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a4c49bf17b63cd1b5d2fca30ed8b71cb34ceeaf9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\fa03f07bf81deaa22e21743b9364f559241638b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f39296419be6bd02ba891fcdafb0d4b66d921709\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_70e80ec5b25722a705c00028c9768be039cb882e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_572d7d13560156322533736b1f597958f25b8efd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7308fa2037dac339ea04b90cdd17e87f835ea294">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_193bfca43b8ecbce3b46ec8a8a2d46668920bda9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_bb2daae34f2ea2bebce15f16d1a374c57e5a02f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_2fccbbbf6cceac2bd78de386ce44db2e1885b58d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db4cfae413ae922fd2eb9587d0c3e3c5eec98b22">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_053b402ecff04f250cf35951ab17c75366254025\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\228b644ab1f58fffe8818d676ba50e925eacafaf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d23e5694b3645258ba5cbeb69b059418af28886\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\f7b761b7406775891e5ac588f16695668c771395\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_486f781267f41265c023fbbb5c05f9213101a2d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\1dffdfc5f57b0a79e796efda95f1c3f1c43f54e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca8f03d0f4ab4143faa1f7e2fedb0c2122947855\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\4b530b900d9c3f3fab5ed0acece4783ab667c7bf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af29d9d8102ce66e844cb110d2151402d519623c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\e226f5933c3473bd39b45fd360a370a1f28cf68a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d3c4b5f9baa50160f7f46ba8f7b7fbbc958af6ab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_bfc1ed56c9fbec8ce224d748ee447596991c9b8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\f94fe664bb8a4fcd39e6c08eaec9376fa92e6ee7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eac4114b6cb643fd2003e8f35250fe1490e78f13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_812045b09d8a3eb06dbee8b89353c6633722d2dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\95527d169874acd0729837753972f7810422be6d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ced3a78dab5b371247a311072dad316216e74260\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\b80d2b6ee2037a59fef402cc3b681b31ac4bcac1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d1028db23f77ea49f4c4924df8b6627c9e9629d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\097e65f4c0fa16739cdd57efa9c5a127dd2dbfff\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d1e76b3e8d705c7f14ef9084b29052bacffc008c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\61f0444c63a9a33b67ddfffa87201918340b8e0f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6047a34af07d6ec4e950ba1dc70ce23ac65ecaa">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_470b5a196962f8f1ab8df5caa329fbc1c60e4da3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_3d3616ce480197ab59ed5634c5b1678defc997b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\b24f3c864d533cd239dec8bfe1da3d25d7d5f40f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_727244f5b2d9eb663ee006817447f2c4dfa72dc5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4e142797f6ada9cbd500da4eb82f08c7d410c60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.1_265cb799c0cda3759a5cac47eaf2cbd5b410a2eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\e2c1694009901d22ac39ae3106d2dffb5eb0dcd2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a5ae55f8d9bf3e67771c308dd17a2768c95415ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_e23e65a1494336d8970104b36bf61e8eff09977f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\f2cdec4dd86775bd808b78f9acd9687fb7e1bef1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a10ed1f1cff990ef081263ad33f13dc6c207eb4e">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d65ce3a4839d2bffc2f1b833ee4ecbc34efe5764\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\35741b810abc15abd9d508d402b9e95c1cb734c8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_30edb248477927b13a5ebd04de29b734e626ff41\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\0140f7fa727cb91adfc1c8e8fe1320ebb27ca5c3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1395232a7eddc612029353b3c953cb0fced71076">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0dad58afdb249ed86e3d54b5a1227ed929b67a24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_dd854ff352f2eaa2520aac9e73bb5c72523e09d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\6e3ccf65500a918d59d986fd9b72bf136ae50845\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4b470f4eb4aa7f7b57e4357932e3f654f8a78021\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\4d9bfa9cfc8252d39392d9c0a878849e8861b638\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="343ad59d9fb3bbf6ab99baafad859eb4b0fecc02">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4d0f15ae936a2e16a48257adcd993b71f387f6c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\6cca51abbc9f1821a2e4a39d28cecbd1b94b0942\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_102eeaaafed75100551f6dc24038784607cbd988\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\08f26d688d0999dfc8091d845c594df5e493ef08\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f246c2bd0d878955f4f20eb4165a85255e343f6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\7d37313ad5705cf185bd8bc4b697dbada9ca52f6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f947724f63de957b1b89913e5621e1fb0fd9228\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\b592985bc36937925c3ba488ce48acada23bc8e6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f9977725301a3814526e64e34fac492aa28db807\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\d562f7f7263fa17896792d60142161829e39846f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_53eb7a0327f1454355ae13720576a21fb346162c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_d77a9c93d5f797b534720bb1affd276d3d44990e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\3724b20407900e9277f4f3c23bb61a1e4870535d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0558e5b6c171bd6719581340f9ac6be4af5ae265">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f51eb0dc7983f797af854cb2e39041660064df83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\e467701756101aaba952ae074607b81d511f048b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55c219237a1d643c5645f4337306d4bf772f66a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\163a6772447a7a63bff2a47efbbbbab1aceb23ab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b2521d19e757b4557ca7d5af88830c1c2caa3a2e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\ad34f37319d2ccc405a553b76437aead05ea9d6b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e85ca9b541e6b1a8b6a6dfa46fcb297e53eae1c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\awaldro1\.android\build-cache\8234822911744b8a2a7ebfbbfdde2d0749ff5707\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="895c63ba9782b04f0c5da69205216f6ec87119eb">
+        <dex dex="C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0469928589bae9c6cce78b4ba7c9fb1901e458db\classes.dex" />
     </item>
 
 </items>

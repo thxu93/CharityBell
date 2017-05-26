@@ -1,5 +1,7 @@
 package edu.tacoma.uw.xut.charitybell;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,6 +32,8 @@ public class ListAlarmActivity extends AppCompatActivity {
     private LinearLayoutManager linearLayoutManager;
     private DatabaseReference mDatabase;
     private FirebaseUser currUser;
+    private PendingIntent pendingIntent;
+    private AlarmManager alarmManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +48,8 @@ public class ListAlarmActivity extends AppCompatActivity {
         mDatabase = FirebaseDatabase.getInstance().getReference();
         currUser = FirebaseAuth.getInstance().getCurrentUser();
 
+        alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
+
         mCreateAlarmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,39 +58,11 @@ public class ListAlarmActivity extends AppCompatActivity {
             }
         });
 
-//        ValueEventListener alarmDataListener = new ValueEventListener() {
-//            @Override
-//            public void onDataChange(DataSnapshot dataSnapshot) {
-//                List<Alarm> tmpList = new ArrayList<>();
-//                for(DataSnapshot singleSnapshot : dataSnapshot.getChildren()) {
-//                    Object theHour = singleSnapshot.child("hour").getValue();
-//                    Object theMinutes = singleSnapshot.child("minutes").getValue();
-//                    tmpList.add(new Alarm(singleSnapshot.getKey(), Integer.parseInt(theHour.toString()), Integer.parseInt(theMinutes.toString())));
-//                }
-//                allAlarms = tmpList;
-//                recyclerViewAdapter = new RecyclerViewAdapter(ListAlarmActivity.this, allAlarms);
-//                recyclerView.setAdapter(recyclerViewAdapter);
-//
-//                // Set previous alarm value from the Firebase DB to the timepicker.
-////                Object theHour = dataSnapshot.child("hour").getValue();
-////                Object theMinutes = dataSnapshot.child("minutes").getValue();
-//            }
-//
-//            @Override
-//            public void onCancelled(DatabaseError databaseError) {
-//                // Getting Post failed, log a message
-//                Log.w(TAG, "loadPost:onCancelled", databaseError.toException());
-//            }
-//        };
-//        mDatabase.child("users").child(currUser.getUid()).child("alarms")
-//                .addValueEventListener(alarmDataListener);
 
         mDatabase.child("users").child(currUser.getUid()).child("alarms").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-//                Toast.makeText(ListAlarmActivity.this, dataSnapshot.getValue().toString(), Toast.LENGTH_SHORT).show();
                 getAlarms(dataSnapshot);
-
             }
 
             @Override
@@ -95,7 +73,6 @@ public class ListAlarmActivity extends AppCompatActivity {
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
                 removeAlarm(dataSnapshot);
-
             }
 
             @Override
@@ -113,47 +90,34 @@ public class ListAlarmActivity extends AppCompatActivity {
 
     private void getAlarms(DataSnapshot dataSnapshot) {
         String alarmName = dataSnapshot.getKey();
-        System.out.println(alarmName);
-//        String theHour = dataSnapshot.child("hour").getValue().toString();
-//        String theMins = dataSnapshot.child("minutes").getValue().toString();
-//        Toast.makeText(this, alarmName + " = " + theHour + ":" + theMins, Toast.LENGTH_SHORT).show();
-        Alarm theAlarm = dataSnapshot.getValue(Alarm.class);
-        allAlarms.add(theAlarm);
+        String theAlarmName = dataSnapshot.getKey();
+        String theHrs = dataSnapshot.child("hours").getValue(String.class);
+        String theMins = dataSnapshot.child("minutes").getValue(String.class);
+        allAlarms.add(new Alarm(theAlarmName, theHrs, theMins));
         refreshRecycler();
     }
 
     private void removeAlarm(DataSnapshot dataSnapshot) {
         String theKey = dataSnapshot.getKey();
+        int numberOnly = Integer.parseInt(theKey.replaceAll("[^0-9]", ""));
+        Intent intent = new Intent(ListAlarmActivity.this, AlarmReceiverActivity.class);
+        pendingIntent = PendingIntent.getBroadcast(ListAlarmActivity.this, numberOnly, intent, 0);
+        alarmManager.cancel(pendingIntent);
+
         for (Alarm a: allAlarms) {
             if(a.getAlarmName().equals(theKey)) {
                 allAlarms.remove(a);
-
+                recyclerViewAdapter.notifyDataSetChanged();
+                refreshRecycler();
+                break;
             }
 
         }
-    }
-
-    private void editAlarms(DataSnapshot dataSnapshot) {
-        Toast.makeText(this, dataSnapshot.getKey(), Toast.LENGTH_SHORT).show();
     }
 
     private void refreshRecycler() {
         recyclerViewAdapter = new RecyclerViewAdapter(ListAlarmActivity.this, allAlarms);
         recyclerView.setAdapter(recyclerViewAdapter);
     }
-//
-//    private void deleteAlarm(DataSnapshot dataSnapshot){
-//        for(DataSnapshot singleSnapshot : dataSnapshot.getChildren()) {
-//            String taskTitle = singleSnapshot.getValue(String.class);
-//            for(int i = 0; i < allAlarms.size(); i++){
-//                if(allAlarms.get(i).getAlarmName().equals(taskTitle)){
-//                    allAlarms.remove(i);
-//                }
-//            }
-//            Log.d(TAG, "Task tile " + taskTitle);
-//            recyclerViewAdapter = new RecyclerViewAdapter(ListAlarmActivity.this, allAlarms);
-//            recyclerView.setAdapter(recyclerViewAdapter);
-//        }
-//    }
 
 }

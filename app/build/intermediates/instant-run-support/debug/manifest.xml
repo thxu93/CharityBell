@@ -210,10 +210,10 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:authorities="edu.tacoma.uw.xut.charitybell.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
-
-        <service
-            android:name="com.android.tools.fd.runtime.InstantRunService"
-            android:exported="true" />
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="edu.tacoma.uw.xut.charitybell.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-#Fri May 26 00:05:45 PDT 2017
-base.0=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0
+#Fri May 26 09:43:34 PDT 2017
+base.0=C\:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
 renamed.0=classes.dex
-file.0=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex
+file.0=C\:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex
