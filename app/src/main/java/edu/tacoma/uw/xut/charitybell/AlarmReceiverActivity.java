@@ -9,8 +9,11 @@
  */
 package edu.tacoma.uw.xut.charitybell;
 
+import android.app.AlarmManager;
+import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
@@ -20,21 +23,18 @@ import android.widget.Toast;
 
 public class AlarmReceiverActivity extends BroadcastReceiver
 {
+
     /**
      * This method fires when the alarm goes off.
      * @param context
      * @param intent
      */
     @Override
-    public void onReceive(Context context, Intent intent)
-    {
-        Toast.makeText(context, "Alarm! Wake up! Wake up!", Toast.LENGTH_LONG).show();
-        Uri alarmUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
-        if (alarmUri == null)
-        {
-            alarmUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-        }
-        Ringtone ringtone = RingtoneManager.getRingtone(context, alarmUri);
-        ringtone.play();
+    public void onReceive(Context context, Intent intent) {
+
+        Toast.makeText(context, "Wake up! Wake up!", Toast.LENGTH_LONG).show();
+        Intent i = new Intent(context, AlarmDialogActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(i);
     }
 }

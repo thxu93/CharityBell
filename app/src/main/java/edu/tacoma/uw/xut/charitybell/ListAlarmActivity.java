@@ -7,10 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -54,6 +52,7 @@ public class ListAlarmActivity extends AppCompatActivity {
 
         calendar.setTimeInMillis(System.currentTimeMillis());
 
+        // On click listener for the create alarm button.
         mCreateAlarmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,6 +101,7 @@ public class ListAlarmActivity extends AppCompatActivity {
         restoreAlarms(theAlarmName, Integer.parseInt(theHrs), Integer.parseInt(theMins));
     }
 
+    // Helper function for removing an alarm from the alarm manager and the firebase DB
     private void removeAlarm(DataSnapshot dataSnapshot) {
         String theKey = dataSnapshot.getKey();
         int numberOnly = Integer.parseInt(theKey.replaceAll("[^0-9]", ""));
@@ -120,6 +120,7 @@ public class ListAlarmActivity extends AppCompatActivity {
         }
     }
 
+    // Helper function for refreshing the recycler view.
     private void refreshRecycler() {
         recyclerViewAdapter = new RecyclerViewAdapter(ListAlarmActivity.this, allAlarms);
         recyclerView.setAdapter(recyclerViewAdapter);

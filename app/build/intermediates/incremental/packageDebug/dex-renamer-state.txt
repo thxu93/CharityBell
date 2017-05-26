@@ -1,4 +1,4 @@
-#Fri May 26 09:43:35 PDT 2017
+#Fri May 26 14:31:11 PDT 2017
 base.0=C\:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_812045b09d8a3eb06dbee8b89353c6633722d2dd
 renamed.1=classes.dex
 renamed.0=classes2.dex

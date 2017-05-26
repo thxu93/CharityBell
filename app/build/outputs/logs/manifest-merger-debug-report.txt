@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\Andr
 		INJECTED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\awaldro1\.android\build-cache\1201e32918e6af05a3bf9d061590544728c11738\output\AndroidManifest.xml:9:5-20
 MERGED from [com.firebaseui:firebase-ui-auth:1.2.0] C:\Users\awaldro1\.android\build-cache\0140f7fa727cb91adfc1c8e8fe1320ebb27ca5c3\output\AndroidManifest.xml:14:5-69:19
 MERGED from [com.android.support:design:25.1.1] C:\Users\awaldro1\.android\build-cache\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\output\AndroidManifest.xml:25:5-20
@@ -83,9 +83,13 @@ ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:22:19-48
 activity#edu.tacoma.uw.xut.charitybell.ListAlarmActivity
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:23:9-64
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:23:9-55
 	android:name
 		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:23:19-52
+activity#edu.tacoma.uw.xut.charitybell.AlarmDialogActivity
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:24:9-66
+	android:name
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:24:19-54
 uses-sdk
 INJECTED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\awaldro1\.android\build-cache\1201e32918e6af05a3bf9d061590544728c11738\output\AndroidManifest.xml:5:5-7:41

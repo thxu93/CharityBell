@@ -20,7 +20,8 @@
 
         <activity android:name=".RegisterActivity" />
         <activity android:name=".AlarmActivity" />
-        <activity android:name=".ListAlarmActivity"></activity>
+        <activity android:name=".ListAlarmActivity" />
+        <activity android:name=".AlarmDialogActivity"></activity>
     </application>
 
 </manifest>
