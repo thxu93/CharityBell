@@ -21,6 +21,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class ListAlarmActivity extends AppCompatActivity {
@@ -34,6 +35,7 @@ public class ListAlarmActivity extends AppCompatActivity {
     private FirebaseUser currUser;
     private PendingIntent pendingIntent;
     private AlarmManager alarmManager;
+    private Calendar calendar = Calendar.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +52,8 @@ public class ListAlarmActivity extends AppCompatActivity {
 
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
 
+        calendar.setTimeInMillis(System.currentTimeMillis());
+
         mCreateAlarmButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,7 +62,7 @@ public class ListAlarmActivity extends AppCompatActivity {
             }
         });
 
-
+        // Listener for all children of the alarms key in firebase DB.
         mDatabase.child("users").child(currUser.getUid()).child("alarms").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
@@ -88,13 +92,14 @@ public class ListAlarmActivity extends AppCompatActivity {
 
     }
 
+    // Helper function for downloading alarms from firebase DB.
     private void getAlarms(DataSnapshot dataSnapshot) {
-        String alarmName = dataSnapshot.getKey();
         String theAlarmName = dataSnapshot.getKey();
         String theHrs = dataSnapshot.child("hours").getValue(String.class);
         String theMins = dataSnapshot.child("minutes").getValue(String.class);
         allAlarms.add(new Alarm(theAlarmName, theHrs, theMins));
         refreshRecycler();
+        restoreAlarms(theAlarmName, Integer.parseInt(theHrs), Integer.parseInt(theMins));
     }
 
     private void removeAlarm(DataSnapshot dataSnapshot) {
@@ -118,6 +123,25 @@ public class ListAlarmActivity extends AppCompatActivity {
     private void refreshRecycler() {
         recyclerViewAdapter = new RecyclerViewAdapter(ListAlarmActivity.this, allAlarms);
         recyclerView.setAdapter(recyclerViewAdapter);
+    }
+
+    // Helper function for restoring system alarms from firebase DB.
+    private void restoreAlarms(String theAlarmName, int theHrs, int theMins) {
+        long time;
+        calendar.set(Calendar.HOUR_OF_DAY, theHrs);
+        calendar.set(Calendar.MINUTE, theMins);
+        int numberOnly = Integer.parseInt(theAlarmName.replaceAll("[^0-9]", ""));
+        Intent intent = new Intent(ListAlarmActivity.this, AlarmReceiverActivity.class);
+        pendingIntent = PendingIntent.getBroadcast(ListAlarmActivity.this, numberOnly, intent, 0);
+
+        time = (calendar.getTimeInMillis() - (calendar.getTimeInMillis() % 60000));
+        if (System.currentTimeMillis() > time) {
+            if (calendar.AM_PM == 0)
+                time = time + (1000 * 60 * 60 * 12);
+            else
+                time = time + (1000 * 60 * 60 * 24);
+        }
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, time, AlarmManager.INTERVAL_DAY, pendingIntent);
     }
 
 }

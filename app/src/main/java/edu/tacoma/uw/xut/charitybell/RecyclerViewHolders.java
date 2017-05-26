@@ -37,7 +37,7 @@ public class RecyclerViewHolders extends RecyclerView.ViewHolder{
             @Override
             public void onClick(View v) {
                 String alarmTitle = mAlarmObject.get(getAdapterPosition()).getAlarmName();
-                Toast.makeText(v.getContext(), "Deleted alarm for" + mAlarmObject.get(getAdapterPosition()).getAlarmText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(), "Deleted alarm at " + mAlarmObject.get(getAdapterPosition()).getAlarmText(), Toast.LENGTH_SHORT).show();
                 Log.d(TAG, "Deleted alarm " + mAlarmObject.get(getAdapterPosition()).getAlarmName());
                 DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("users").child(currUser.getUid()).child("alarms");
                 ref.child(alarmTitle).removeValue();
