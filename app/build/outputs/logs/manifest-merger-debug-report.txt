@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml
@@ -13,8 +13,12 @@ ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\Andr
 	android:versionCode
 		INJECTED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:5:22-63
 application
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:6:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\awaldro1\.android\build-cache\1201e32918e6af05a3bf9d061590544728c11738\output\AndroidManifest.xml:9:5-20
 MERGED from [com.firebaseui:firebase-ui-auth:1.2.0] C:\Users\awaldro1\.android\build-cache\0140f7fa727cb91adfc1c8e8fe1320ebb27ca5c3\output\AndroidManifest.xml:14:5-69:19
 MERGED from [com.android.support:design:25.1.1] C:\Users\awaldro1\.android\build-cache\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\output\AndroidManifest.xml:25:5-20
@@ -47,49 +51,49 @@ MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\awaldro1\.andr
 MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\awaldro1\.android\build-cache\e226f5933c3473bd39b45fd360a370a1f28cf68a\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.1.1] C:\Users\awaldro1\.android\build-cache\08f26d688d0999dfc8091d845c594df5e493ef08\output\AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:8:9-37
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:9:9-37
 	android:supportsRtl
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:10:9-35
 	android:allowBackup
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:8:9-43
 	android:theme
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:10:9-40
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:11:9-40
 activity#edu.tacoma.uw.xut.charitybell.LoginActivity
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:11:19-48
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:12:19-48
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:12:13-16:29
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:13:17-69
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:16:27-74
 receiver#edu.tacoma.uw.xut.charitybell.AlarmReceiverActivity
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:19:9-59
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:20:9-59
 	android:name
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:19:19-56
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:20:19-56
 activity#edu.tacoma.uw.xut.charitybell.RegisterActivity
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:21:9-54
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:22:9-54
 	android:name
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:21:19-51
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:22:19-51
 activity#edu.tacoma.uw.xut.charitybell.AlarmActivity
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:22:9-51
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:23:9-51
 	android:name
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:22:19-48
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:23:19-48
 activity#edu.tacoma.uw.xut.charitybell.ListAlarmActivity
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:23:9-55
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:24:9-55
 	android:name
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:23:19-52
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:24:19-52
 activity#edu.tacoma.uw.xut.charitybell.AlarmDialogActivity
-ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:24:9-66
+ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:25:9-66
 	android:name
-		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:24:19-54
+		ADDED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml:25:19-54
 uses-sdk
 INJECTED from C:\Users\awaldro1\AndroidStudioProjects\CharityBell\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\awaldro1\.android\build-cache\1201e32918e6af05a3bf9d061590544728c11738\output\AndroidManifest.xml:5:5-7:41
