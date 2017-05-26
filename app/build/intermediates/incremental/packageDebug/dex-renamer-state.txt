@@ -1,4 +1,4 @@
-#Thu May 25 18:18:05 PDT 2017
+#Thu May 25 23:55:20 PDT 2017
 base.0=/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_029bbb08728d2b141ba941bcb618a90cb09860de
 renamed.1=classes.dex
 renamed.0=classes2.dex

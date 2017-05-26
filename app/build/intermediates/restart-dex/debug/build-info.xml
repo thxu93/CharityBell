@@ -2,61 +2,55 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1495761567102"
+    timestamp="1495782372921"
     token="-1799492283362516175"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="967" />
+        duration="435" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="14" />
     <task
         name="instant-run-transform"
-        duration="80" />
+        duration="31" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
-        location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
+        location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1495761477870"
+        timestamp="1495781713739"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
             location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -65,16 +59,30 @@
             location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1495761567102"
+        timestamp="1495782343704"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1495782372921"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

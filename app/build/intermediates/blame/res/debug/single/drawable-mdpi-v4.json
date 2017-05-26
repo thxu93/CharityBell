@@ -184,16 +184,16 @@
         "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_close.png",
+        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable-mdpi-v4/com_facebook_close.png"
+    },
+    {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png",
         "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/messenger_bubble_small_blue.png",
         "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable-mdpi-v4/messenger_bubble_small_blue.png"
-    },
-    {
-        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/com_facebook_close.png",
-        "source": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/drawable-mdpi-v4/com_facebook_close.png"
     },
     {
         "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/tw__composer_logo_white.png",

@@ -40,14 +40,15 @@ public class RecyclerViewHolders extends RecyclerView.ViewHolder{
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(), "Delete icon has been clicked", Toast.LENGTH_LONG).show();
-                int alarmHrs = alarmObject.get(getAdapterPosition()).getHours();
-                int alarmMins = alarmObject.get(getAdapterPosition()).getMinutes();
+//                int alarmHrs = alarmObject.get(getAdapterPosition()).getHours();
+//                int alarmMins = alarmObject.get(getAdapterPosition()).getMinutes();
                 String alarmName = alarmObject.get(getAdapterPosition()).getAlarmName();
                 Toast.makeText(v.getContext(), alarmName, Toast.LENGTH_LONG).show();
                 Log.d(TAG, "Alarm Text " + alarmName);
                 DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
                 ref.child("users").child(currUser.getUid()).child("alarms").child(alarmName)
                         .removeValue();
+
 
 //                Query applesQuery = ref.orderByChild("alarms").equalTo(alarmName);
 //                applesQuery.addListenerForSingleValueEvent(new ValueEventListener() {

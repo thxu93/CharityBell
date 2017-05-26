@@ -5,16 +5,16 @@ package edu.tacoma.uw.xut.charitybell;
  */
 
 public class Alarm {
-    private int hours;
-    private int minutes;
+    private String hours;
+    private String minutes;
     private String name;
 
     public Alarm() {
-        hours = 0;
-        minutes = 0;
+        name = "";
+        hours = "";
+        minutes = "";
     }
-
-    public Alarm(String theName, int theHrs, int theMins) {
+    public Alarm(String theName, String theHrs, String theMins) {
         name = theName;
         hours = theHrs;
         minutes = theMins;
@@ -24,11 +24,11 @@ public class Alarm {
         return hours + ":" + minutes;
     }
 
-    public int getHours() {
+    public String getHours() {
         return hours;
     }
 
-    public int getMinutes() {
+    public String getMinutes() {
         return minutes;
     }
 

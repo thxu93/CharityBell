@@ -33,15 +33,8 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.google.gson.JsonParser;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.Calendar;
-import java.util.List;
 import java.util.Random;
 
 public class AlarmActivity extends AppCompatActivity {
@@ -96,47 +89,54 @@ public class AlarmActivity extends AppCompatActivity {
             // Registers the ValueEventListener to the current user with the given UID key.
             mDatabase.child("users").child(currUser.getUid()).child("alarms")
                     .addValueEventListener(alarmDataListener);
+
+            setAlarmButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    long time;
+                    Toast.makeText(AlarmActivity.this, "Alarm Set", Toast.LENGTH_SHORT).show();
+                    Calendar calendar = Calendar.getInstance();
+                    calendar.setTimeInMillis(System.currentTimeMillis());
+                    calendar.set(Calendar.HOUR_OF_DAY, alarmTimePicker.getCurrentHour());
+                    calendar.set(Calendar.MINUTE, alarmTimePicker.getCurrentMinute());
+
+                    Intent intent = new Intent(AlarmActivity.this, AlarmReceiverActivity.class);
+                    pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, (alarmNum), intent, 0);
+
+                    time = (calendar.getTimeInMillis() - (calendar.getTimeInMillis() % 60000));
+                    if (System.currentTimeMillis() > time) {
+                        if (calendar.AM_PM == 0)
+                            time = time + (1000 * 60 * 60 * 12);
+                        else
+                            time = time + (1000 * 60 * 60 * 24);
+                    }
+
+                    alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, time, AlarmManager.INTERVAL_DAY, pendingIntent);
+
+                    // Posts the Alarm time to the Firebase DB when set so it can be re-set on login.
+                    DatabaseReference alrmRef = mDatabase.child("users").child(currUser.getUid()).child("alarms");
+                    alrmRef.child("alarm" + alarmNum).setValue(new Alarm("alarm" + alarmNum,
+                                    alarmTimePicker.getCurrentHour().toString(),
+                                    alarmTimePicker.getCurrentMinute().toString())).addOnCompleteListener(new OnCompleteListener<Void>() {
+                        @Override
+                        public void onComplete(@NonNull Task<Void> task) {
+                            finish();
+                        }
+                    });
+//                    mDatabase.child("users").child(currUser
+//                            .getUid()).child("alarms").child("alarm" + (alarmNum)).child("minutes")
+//                            .setValue(alarmTimePicker.getCurrentMinute().toString()).addOnCompleteListener(new OnCompleteListener<Void>() {
+//                        @Override
+//                        public void onComplete(@NonNull Task<Void> task) {
+//                            finish();
+//                        }
+//                    });
+                }
+            });
+
         } else {
             // No user is signed in
             startActivity(new Intent(AlarmActivity.this, LoginActivity.class));
         }
-        setAlarmButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                long time;
-                Toast.makeText(AlarmActivity.this, "Alarm Set", Toast.LENGTH_SHORT).show();
-                Calendar calendar = Calendar.getInstance();
-                calendar.setTimeInMillis(System.currentTimeMillis());
-                calendar.set(Calendar.HOUR_OF_DAY, alarmTimePicker.getCurrentHour());
-                calendar.set(Calendar.MINUTE, alarmTimePicker.getCurrentMinute());
-
-                Intent intent = new Intent(AlarmActivity.this, AlarmReceiverActivity.class);
-                pendingIntent = PendingIntent.getBroadcast(AlarmActivity.this, (alarmNum), intent, 0);
-
-                time = (calendar.getTimeInMillis() - (calendar.getTimeInMillis() % 60000));
-                if (System.currentTimeMillis() > time) {
-                    if (calendar.AM_PM == 0)
-                        time = time + (1000 * 60 * 60 * 12);
-                    else
-                        time = time + (1000 * 60 * 60 * 24);
-                }
-
-                alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, time, AlarmManager.INTERVAL_DAY, pendingIntent);
-
-                // Posts the Alarm time to the Firebase DB when set so it can be re-set on login.
-                mDatabase.child("users").child(currUser
-                        .getUid()).child("alarms").child("alarm" + (alarmNum)).child("hour")
-                        .setValue(alarmTimePicker.getCurrentHour().toString());
-                mDatabase.child("users").child(currUser
-                        .getUid()).child("alarms").child("alarm" + (alarmNum)).child("minutes")
-                        .setValue(alarmTimePicker.getCurrentMinute().toString()).addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        Intent finishedIntent = new Intent(AlarmActivity.this, ListAlarmActivity.class);
-                        startActivity(finishedIntent);
-                    }
-                });
-            }
-        });
     }
 }
