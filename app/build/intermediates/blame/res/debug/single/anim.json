@@ -1,82 +1,82 @@
 [
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\\output\\res\\anim\\design_fab_in.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/slide_out_left.xml",
+        "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/anim/slide_out_left.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_right.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\0140f7fa727cb91adfc1c8e8fe1320ebb27ca5c3\\output\\res\\anim\\slide_in_right.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tw__accelerate_cubic.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\anim\\tw__accelerate_cubic.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/tw__slide_out.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/anim/tw__slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\\output\\res\\anim\\design_snackbar_in.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\tw__slide_out.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\anim\\tw__slide_out.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/slide_in_right.xml",
+        "source": "/Users/Adam/.android/build-cache/028ab34d75c1f0eb8eb76fd9b18838677bd7d884/output/res/anim/slide_in_right.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_popup_enter.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/tw__accelerate_cubic.xml",
+        "source": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/anim/tw__accelerate_cubic.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_left.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\0140f7fa727cb91adfc1c8e8fe1320ebb27ca5c3\\output\\res\\anim\\slide_out_left.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\f0e1c98bbc3bae3176bcf4b55212064b8ed91833\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/Adam/.android/build-cache/0f885ddbbb4e1198268bf5d0406def88ce06badd/output/res/anim/design_snackbar_in.xml"
     }
 ]

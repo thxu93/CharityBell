@@ -1,31 +1,35 @@
 package edu.tacoma.uw.xut.charitybell;
 
+import android.app.AlarmManager;
 import android.app.AlertDialog;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
 import android.net.Uri;
+import android.os.SystemClock;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
 public class AlarmDialogActivity extends AppCompatActivity {
-    MediaPlayer mp;
-    Vibrator vibrator;
-
+    private MediaPlayer mp;
+    private Vibrator vibrator;
+    private AlarmManager alarmMgr;
+    private PendingIntent alarmIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(AlarmDialogActivity.this);
-//        Uri alarmUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
-//        if (alarmUri == null)
-//        {
-//            alarmUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
-//        }
         Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
         mp = MediaPlayer.create(getApplicationContext(), notification);
         mp.start();
+        alarmMgr = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+        Intent intent = new Intent(AlarmDialogActivity.this, AlarmReceiverActivity.class);
+        alarmIntent = PendingIntent.getBroadcast(AlarmDialogActivity.this, 0, intent, 0);
 
 
         vibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
@@ -44,10 +48,13 @@ public class AlarmDialogActivity extends AppCompatActivity {
                         Toast.makeText(AlarmDialogActivity.this, "Snoozed!", Toast.LENGTH_SHORT).show();
                         mp.stop();
                         vibrator.cancel();
+                        alarmMgr.set(AlarmManager.ELAPSED_REALTIME_WAKEUP,
+                                SystemClock.elapsedRealtime() +
+                                        60 * 1000, alarmIntent);
                         finish();
                     }
                 })
-                .setNegativeButton("Turn off Alarm",new DialogInterface.OnClickListener() {
+                .setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         Toast.makeText(AlarmDialogActivity.this, "Alarm Canceled. Time to get up!", Toast.LENGTH_SHORT).show();
                         mp.stop();

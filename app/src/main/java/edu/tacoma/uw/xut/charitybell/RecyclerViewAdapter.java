@@ -26,10 +26,37 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
     }
     @Override
     public void onBindViewHolder(RecyclerViewHolders holder, int position) {
-        holder.categoryTitle.setText(task.get(position).getAlarmText());
+        holder.alarmTimeText.setText("  Alarm" + (position + 1) + "                     " +
+                prettyAlarmText(task.get(position).getAlarmText()));
     }
     @Override
     public int getItemCount() {
         return this.task.size();
+    }
+
+    private String prettyAlarmText(String theAlarmText) {
+        String AMPM;
+        String theHrsMins[] = theAlarmText.split(":");
+        String hoursString = theHrsMins[0];
+        String minsString = theHrsMins[1];
+        int hrs = Integer.parseInt(hoursString);
+        int mins = Integer.parseInt(minsString);
+
+        if (hrs > 12) {
+            AMPM = "PM";
+            hrs = hrs - 12;
+        } else {
+            AMPM = "AM";
+        }
+        if (hrs == 0)
+            hrs = 12;
+
+        if (mins < 10)
+            minsString = "0" + mins;
+        else
+            minsString = "" + mins;
+
+
+        return hrs + ":" + minsString + " " + AMPM;
     }
 }

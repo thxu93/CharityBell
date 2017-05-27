@@ -3,15 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/alarm_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
         android:layout_above="@+id/add_alarm_wrapper"
         android:layout_marginBottom="12dp"
         android:orientation="vertical"
-        android:scrollbars="none"/>
+        android:scrollbars="none"
+        android:layout_below="@+id/welcomeText" />
     <LinearLayout
         android:id="@+id/add_alarm_wrapper"
         android:layout_width="match_parent"

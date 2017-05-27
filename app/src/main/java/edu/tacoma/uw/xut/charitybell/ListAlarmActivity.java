@@ -9,6 +9,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -34,6 +35,7 @@ public class ListAlarmActivity extends AppCompatActivity {
     private PendingIntent pendingIntent;
     private AlarmManager alarmManager;
     private Calendar calendar = Calendar.getInstance();
+    private TextView welcomeText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +44,7 @@ public class ListAlarmActivity extends AppCompatActivity {
         mCreateAlarmButton = (Button) findViewById(R.id.add_alarm_button);
         allAlarms = new ArrayList<>();
         recyclerView = (RecyclerView)findViewById(R.id.alarm_list);
+        welcomeText = (TextView) findViewById(R.id.welcomeText);
         linearLayoutManager = new LinearLayoutManager(this);
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
@@ -52,6 +55,7 @@ public class ListAlarmActivity extends AppCompatActivity {
 
         calendar.setTimeInMillis(System.currentTimeMillis());
 
+        welcomeText.setText(currUser.getDisplayName() + "'s Alarms");
         // On click listener for the create alarm button.
         mCreateAlarmButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -116,7 +120,6 @@ public class ListAlarmActivity extends AppCompatActivity {
                 refreshRecycler();
                 break;
             }
-
         }
     }
 

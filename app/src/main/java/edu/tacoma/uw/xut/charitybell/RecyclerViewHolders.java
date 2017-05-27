@@ -20,7 +20,7 @@ import java.util.List;
 
 public class RecyclerViewHolders extends RecyclerView.ViewHolder{
     private static final String TAG = RecyclerViewHolders.class.getSimpleName();
-    public TextView categoryTitle;
+    public TextView alarmTimeText;
     public ImageView deleteIcon;
     private List<Alarm> mAlarmObject;
     private FirebaseUser currUser;
@@ -29,15 +29,15 @@ public class RecyclerViewHolders extends RecyclerView.ViewHolder{
     public RecyclerViewHolders(final View itemView, final List<Alarm> alarmObject) {
         super(itemView);
         mAlarmObject = alarmObject;
-        categoryTitle = (TextView)itemView.findViewById(R.id.task_title);
-        deleteIcon = (ImageView)itemView.findViewById(R.id.task_delete);
+        alarmTimeText = (TextView)itemView.findViewById(R.id.alarm_text);
+        deleteIcon = (ImageView)itemView.findViewById(R.id.alarm_delete);
         currUser = FirebaseAuth.getInstance().getCurrentUser();
 
         deleteIcon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String alarmTitle = mAlarmObject.get(getAdapterPosition()).getAlarmName();
-                Toast.makeText(v.getContext(), "Deleted alarm at " + mAlarmObject.get(getAdapterPosition()).getAlarmText(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(v.getContext(), "Alarm Deleted", Toast.LENGTH_SHORT).show();
                 Log.d(TAG, "Deleted alarm " + mAlarmObject.get(getAdapterPosition()).getAlarmName());
                 DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("users").child(currUser.getUid()).child("alarms");
                 ref.child(alarmTitle).removeValue();

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\awaldro1\\AndroidStudioProjects\\CharityBell\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
+        "outputFile": "/Users/Adam/Documents/MobileApps/CharityBell/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 234
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 367
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 500
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -74,7 +74,7 @@
                     "endOffset": 608
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -93,7 +93,7 @@
                     "endOffset": 717
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -112,7 +112,7 @@
                     "endOffset": 842
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -131,7 +131,7 @@
                     "endOffset": 937
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -150,7 +150,7 @@
                     "endOffset": 1051
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -169,7 +169,7 @@
                     "endOffset": 1137
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -188,7 +188,7 @@
                     "endOffset": 1237
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -207,7 +207,7 @@
                     "endOffset": 1350
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -226,7 +226,7 @@
                     "endOffset": 1426
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -245,7 +245,7 @@
                     "endOffset": 1502
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -264,7 +264,7 @@
                     "endOffset": 1582
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -283,7 +283,7 @@
                     "endOffset": 1685
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -302,7 +302,7 @@
                     "endOffset": 1784
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -321,7 +321,7 @@
                     "endOffset": 1880
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -340,7 +340,7 @@
                     "endOffset": 1984
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -359,7 +359,7 @@
                     "endOffset": 2082
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -378,7 +378,7 @@
                     "endOffset": 2183
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -397,7 +397,7 @@
                     "endOffset": 2299
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -416,7 +416,7 @@
                     "endOffset": 2396
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -435,7 +435,7 @@
                     "endOffset": 2566
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -454,7 +454,7 @@
                     "endOffset": 2692
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -473,7 +473,7 @@
                     "endOffset": 2817
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -492,7 +492,7 @@
                     "endOffset": 2911
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -511,7 +511,7 @@
                     "endOffset": 2975
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -530,7 +530,7 @@
                     "endOffset": 3044
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -549,7 +549,7 @@
                     "endOffset": 3106
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -568,7 +568,7 @@
                     "endOffset": 3178
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -587,7 +587,7 @@
                     "endOffset": 3252
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -606,7 +606,7 @@
                     "endOffset": 3348
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -625,7 +625,7 @@
                     "endOffset": 3440
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -644,7 +644,7 @@
                     "endOffset": 3514
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -663,7 +663,7 @@
                     "endOffset": 3588
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -682,7 +682,7 @@
                     "endOffset": 3673
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -701,7 +701,7 @@
                     "endOffset": 3773
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -720,7 +720,7 @@
                     "endOffset": 3836
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -739,7 +739,7 @@
                     "endOffset": 3899
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -758,7 +758,7 @@
                     "endOffset": 4020
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -777,7 +777,7 @@
                     "endOffset": 4127
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -796,7 +796,7 @@
                     "endOffset": 4318
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -815,7 +815,7 @@
                     "endOffset": 4446
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -834,7 +834,7 @@
                     "endOffset": 4557
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -853,7 +853,7 @@
                     "endOffset": 4772
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -872,7 +872,7 @@
                     "endOffset": 4904
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -891,7 +891,7 @@
                     "endOffset": 5036
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -910,7 +910,7 @@
                     "endOffset": 5225
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b24f3c864d533cd239dec8bfe1da3d25d7d5f40f\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/bf1611d6c911d8ae86b8947e4c39e6adce3996fd/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -929,7 +929,7 @@
                     "endOffset": 5438
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -948,7 +948,7 @@
                     "endOffset": 5547
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -967,7 +967,7 @@
                     "endOffset": 5739
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -986,7 +986,7 @@
                     "endOffset": 5869
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -1005,7 +1005,7 @@
                     "endOffset": 6070
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -1024,7 +1024,7 @@
                     "endOffset": 6276
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -1043,7 +1043,7 @@
                     "endOffset": 6373
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -1062,7 +1062,7 @@
                     "endOffset": 6465
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1081,7 +1081,7 @@
                     "endOffset": 6572
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\b71de6bcb98f1a635ea6ad007b9cde93bdc65aec\\output\\res\\values-nb\\values.xml",
+                    "file": "/Users/Adam/.android/build-cache/368976c01a0e308cee59446d1a431a5b0a1d0b5f/output/res/values-nb/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -1100,7 +1100,7 @@
                     "endOffset": 6632
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\61f0444c63a9a33b67ddfffa87201918340b8e0f\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/fe6aea7221ab0b8a0986eafa93b8c649ffeef766/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1119,7 +1119,7 @@
                     "endOffset": 6711
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1138,7 +1138,7 @@
                     "endOffset": 6812
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\228b644ab1f58fffe8818d676ba50e925eacafaf\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/5b5b3334a7a955aad8cf3aebe6b8665bfa5b4f7b/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1157,7 +1157,7 @@
                     "endOffset": 6865
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\4d9bfa9cfc8252d39392d9c0a878849e8861b638\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1176,7 +1176,7 @@
                     "endOffset": 6922
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\8234822911744b8a2a7ebfbbfdde2d0749ff5707\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1195,7 +1195,7 @@
                     "endOffset": 6975
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1214,7 +1214,7 @@
                     "endOffset": 7025
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\8234822911744b8a2a7ebfbbfdde2d0749ff5707\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1233,7 +1233,7 @@
                     "endOffset": 7078
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1252,7 +1252,7 @@
                     "endOffset": 7134
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1271,7 +1271,7 @@
                     "endOffset": 7199
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1290,7 +1290,7 @@
                     "endOffset": 7266
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\4d9bfa9cfc8252d39392d9c0a878849e8861b638\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1309,7 +1309,7 @@
                     "endOffset": 7318
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\8234822911744b8a2a7ebfbbfdde2d0749ff5707\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1328,7 +1328,7 @@
                     "endOffset": 7374
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\4d9bfa9cfc8252d39392d9c0a878849e8861b638\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1347,7 +1347,7 @@
                     "endOffset": 7418
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1366,7 +1366,7 @@
                     "endOffset": 7461
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1385,7 +1385,7 @@
                     "endOffset": 7510
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\8234822911744b8a2a7ebfbbfdde2d0749ff5707\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/d40adb974ca89e559680774ec725c7366fbe6f73/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1404,7 +1404,7 @@
                     "endOffset": 7574
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1423,7 +1423,7 @@
                     "endOffset": 7640
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1442,7 +1442,7 @@
                     "endOffset": 7693
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1461,7 +1461,7 @@
                     "endOffset": 7763
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1480,7 +1480,7 @@
                     "endOffset": 7875
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1499,7 +1499,7 @@
                     "endOffset": 8135
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\4d9bfa9cfc8252d39392d9c0a878849e8861b638\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1518,7 +1518,7 @@
                     "endOffset": 8208
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\4d9bfa9cfc8252d39392d9c0a878849e8861b638\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/70553cae1df2612efe087baecebc7b93e059e338/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1537,7 +1537,7 @@
                     "endOffset": 8285
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -1556,7 +1556,7 @@
                     "endOffset": 8341
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -1575,7 +1575,7 @@
                     "endOffset": 8417
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -1594,7 +1594,7 @@
                     "endOffset": 8474
                 },
                 "from": {
-                    "file": "C:\\Users\\awaldro1\\.android\\build-cache\\c3c872f3ed0699bffa3a48e536d15bd18b8e94eb\\output\\res\\values-nb\\values-nb.xml",
+                    "file": "/Users/Adam/.android/build-cache/cce00c49abce869221b40d1e6c0b52d1358257da/output/res/values-nb/values-nb.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
