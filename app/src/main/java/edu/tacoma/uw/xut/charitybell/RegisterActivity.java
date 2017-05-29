@@ -33,7 +33,6 @@ public class RegisterActivity extends AppCompatActivity {
     private Button mRegisterButton;
     private EditText mEmail, mPassword, mDisplayName;
     private FirebaseAuth mAuth;
-
     private DatabaseReference mDatabase;
 
     @Override
@@ -87,24 +86,22 @@ public class RegisterActivity extends AppCompatActivity {
                                     UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
                                             .setDisplayName(mDisplayName.getText().toString())
                                             .build();
-                                        mAuth.getCurrentUser().updateProfile(profileUpdates)
+                                    mAuth.getCurrentUser().updateProfile(profileUpdates)
                                             .addOnCompleteListener(new OnCompleteListener<Void>() {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
-                                        if (task.isSuccessful()) {
-                                            // Creates user keys and values into Firebase DB
-                                            mDatabase.child("users").child(mAuth.getCurrentUser()
-                                                .getUid()).child("name")
-                                                .setValue(mAuth.getCurrentUser()
-                                                .getDisplayName());
-                                            mDatabase.child("users").child(mAuth.getCurrentUser()
-                                                .getUid()).child("email")
-                                                .setValue(mAuth.getCurrentUser()
-                                                .getEmail());
-                                            mDatabase.child("users").child(mAuth.getCurrentUser()
-                                                .getUid()).child("alarm").child("minutes").setValue(0);
-                                            mDatabase.child("users").child(mAuth.getCurrentUser()
-                                                .getUid()).child("alarm").child("hour").setValue(0);
+                                            if (task.isSuccessful()) {
+                                                // Creates user keys and values into Firebase DB
+                                                mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                        .getUid()).child("name")
+                                                        .setValue(mAuth.getCurrentUser()
+                                                                .getDisplayName());
+                                                mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                        .getUid()).child("email")
+                                                        .setValue(mAuth.getCurrentUser()
+                                                                .getEmail());
+                                                mDatabase.child("users").child(mAuth.getCurrentUser()
+                                                        .getUid()).child("alarms");
 
                                             }
                                         }
@@ -115,7 +112,7 @@ public class RegisterActivity extends AppCompatActivity {
                                     finish();
                                 } else {
                                     Toast.makeText(RegisterActivity.this, "Could not create account: " + task.getException().getMessage(),
-                                    Toast.LENGTH_LONG).show();
+                                            Toast.LENGTH_LONG).show();
                                 }
 
                             }

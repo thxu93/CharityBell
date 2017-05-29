@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -14,74 +14,19 @@
 
     <TimePicker
         android:id="@+id/timePicker"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
     <Button
-        android:id="@+id/set_alarm"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="45dp"
-        android:layout_marginStart="44dp"
-        android:text="Set Alarm"
-        android:layout_below="@+id/timePicker"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="25dp" />
-
-    <Button
-        android:id="@+id/cancel_alarm"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="45dp"
-        android:text="Cancel Alarm"
-        android:layout_alignBaseline="@+id/set_alarm"
-        android:layout_alignBottom="@+id/set_alarm"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <TextView
-        android:id="@+id/alarm_descr"
+        android:id="@+id/setAlarmButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/set_alarm"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp"
-        android:text="Alarm Description" />
-
-    <Button
-        android:id="@+id/getAlarms"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="List of Alarms" />
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:checked="false"
+        android:text="Set Alarm" />
 
 
-    <!--<ToggleButton-->
-        <!--android:id="@+id/toggleButton"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="center"-->
-        <!--android:checked="false"-->
-        <!--android:onClick="OnToggleClicked"-->
-        <!--android:layout_marginLeft="32dp"-->
-        <!--android:layout_marginTop="39dp"-->
-        <!--android:layout_marginStart="32dp"-->
-        <!--android:layout_below="@+id/timePicker"-->
-        <!--android:layout_alignParentLeft="true"-->
-        <!--android:layout_alignParentStart="true" />-->
 
-    <!--<Button-->
-        <!--android:id="@+id/button"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_gravity="right"-->
-        <!--android:layout_marginRight="10dp"-->
-        <!--android:onClick="onCharities"-->
-        <!--android:text="Charities" />-->
-
-
-</RelativeLayout>
+</LinearLayout>
