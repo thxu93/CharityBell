@@ -46,12 +46,6 @@ public class AlarmDialogActivity extends AppCompatActivity {
         Intent intent = new Intent(AlarmDialogActivity.this, AlarmReceiverActivity.class);
         alarmIntent = PendingIntent.getBroadcast(AlarmDialogActivity.this, 0, intent, 0);
 
-
-        ShareLinkContent content = new ShareLinkContent.Builder()
-                .setQuote("Wow! I just donated $2 by hitting the snooze") //eventually replace two with a number pulled from sqlite
-                .setContentUrl(Uri.parse("http://www.CharityBell.com")).build();
-        shareDialog.show(content);
-
         vibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
         long pattern[]={0,300,200,300,500};
         vibrator.vibrate(pattern, 0);
@@ -82,7 +76,10 @@ public class AlarmDialogActivity extends AppCompatActivity {
                         vibrator.cancel();
                         finish();
 
-
+                        ShareLinkContent content = new ShareLinkContent.Builder()
+                                .setQuote("Wow! I just donated $2 by hitting the snooze") //eventually replace two with a number pulled from sqlite
+                                .setContentUrl(Uri.parse("http://www.CharityBell.com")).build();
+                        shareDialog.show(content);
                     }
                 });
 

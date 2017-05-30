@@ -21,14 +21,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.facebook.FacebookSdk;
-import com.facebook.share.model.ShareLinkContent;
-import com.facebook.share.widget.ShareDialog;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -37,10 +33,6 @@ public class LoginActivity extends AppCompatActivity {
     private EditText mEmail, mPassword;
     private FirebaseAuth mAuth;
     private TextView mRegisterTextLink;
-
-
-    private ShareDialog shareDialog;
-    Button post;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,21 +44,6 @@ public class LoginActivity extends AppCompatActivity {
         mPassword = (EditText) findViewById(R.id.passwordInput);
         mRegisterTextLink = (TextView) findViewById(R.id.registerTextLink);
         mAuth = FirebaseAuth.getInstance();
-
-
-        FacebookSdk.sdkInitialize(getApplicationContext());
-        shareDialog = new ShareDialog(this);
-
-        post = (Button) findViewById(R.id.button);
-        post.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                ShareLinkContent content = new ShareLinkContent.Builder()
-                        .setQuote("Wow! I just donated $2 by hitting the snooze") //eventually replace two with a number pulled from sqlite
-                        .setContentUrl(Uri.parse("http://www.CharityBell.com")).build();
-                shareDialog.show(content);
-            }
-        });
 
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
