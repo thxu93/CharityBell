@@ -15,14 +15,29 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.facebook.share.model.ShareLinkContent;
+import com.facebook.share.widget.ShareDialog;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+
+
+
 public class AlarmDialogActivity extends AppCompatActivity {
     private MediaPlayer mp;
     private Vibrator vibrator;
     private AlarmManager alarmMgr;
     private PendingIntent alarmIntent;
+    private ShareDialog shareDialog;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        shareDialog = new ShareDialog(this);
+
+
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(AlarmDialogActivity.this);
         Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
         mp = MediaPlayer.create(getApplicationContext(), notification);
@@ -31,6 +46,11 @@ public class AlarmDialogActivity extends AppCompatActivity {
         Intent intent = new Intent(AlarmDialogActivity.this, AlarmReceiverActivity.class);
         alarmIntent = PendingIntent.getBroadcast(AlarmDialogActivity.this, 0, intent, 0);
 
+
+        ShareLinkContent content = new ShareLinkContent.Builder()
+                .setQuote("Wow! I just donated $2 by hitting the snooze") //eventually replace two with a number pulled from sqlite
+                .setContentUrl(Uri.parse("http://www.CharityBell.com")).build();
+        shareDialog.show(content);
 
         vibrator = (Vibrator)getSystemService(VIBRATOR_SERVICE);
         long pattern[]={0,300,200,300,500};
@@ -56,10 +76,13 @@ public class AlarmDialogActivity extends AppCompatActivity {
                 })
                 .setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
+
                         Toast.makeText(AlarmDialogActivity.this, "Alarm Canceled. Time to get up!", Toast.LENGTH_SHORT).show();
                         mp.stop();
                         vibrator.cancel();
                         finish();
+
+
                     }
                 });
 
