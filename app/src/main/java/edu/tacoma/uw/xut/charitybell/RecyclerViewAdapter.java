@@ -13,6 +13,7 @@ import java.util.List;
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolders> {
     private List<Alarm> task;
     protected Context context;
+
     public RecyclerViewAdapter(Context context, List<Alarm> task) {
         this.task = task;
         this.context = context;

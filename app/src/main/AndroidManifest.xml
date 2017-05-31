@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="edu.tacoma.uw.xut.charitybell">
 
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Charity Bell"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            tools:replace= "android:value"
+            android:value="@string/facebook_app_id"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider177001902829290"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+
+
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +35,10 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".AlarmActivity" />
         <activity android:name=".ListAlarmActivity" />
-        <activity android:name=".AlarmDialogActivity"></activity>
+        <activity android:name=".AlarmDialogActivity"/>
+
+
+
     </application>
 
 </manifest>

@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "392157258938-s90p4njpfi5ulqbo2oq7jhmsoiep7ggo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.tacoma.uw.xut.charitybell",
+            "certificate_hash": "bb537e5d17c3f8c5341515b5e33236450336c64d"
+          }
+        },
+        {
           "client_id": "392157258938-o6a8ah07i4g7je2au31a0dppvqgj5v08.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

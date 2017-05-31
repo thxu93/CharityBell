@@ -10,6 +10,7 @@
 package edu.tacoma.uw.xut.charitybell;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,7 +25,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -45,7 +45,6 @@ public class LoginActivity extends AppCompatActivity {
         mRegisterTextLink = (TextView) findViewById(R.id.registerTextLink);
         mAuth = FirebaseAuth.getInstance();
 
-
         mLoginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,8 +60,6 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Enter password!", Toast.LENGTH_SHORT).show();
                     return;
                 }
-
-
 
                 //authenticate user
                 mAuth.signInWithEmailAndPassword(email, password)
