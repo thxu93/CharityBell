@@ -99,8 +99,10 @@ public class AlarmDialogActivity extends AppCompatActivity {
 
                         Toast.makeText(AlarmDialogActivity.this, "Alarm Canceled. Time to get up!",
                                 Toast.LENGTH_SHORT).show();
+
+                        //This is where the Donation API code would have gone.
                         Toast.makeText(AlarmDialogActivity.this, "You donated $" + mSnoozeCount +
-                                " dollars to charity!", Toast.LENGTH_LONG).show();
+                                " dollars to charity by snoozing.", Toast.LENGTH_LONG).show();
                         mp.stop();
                         vibrator.cancel();
 
