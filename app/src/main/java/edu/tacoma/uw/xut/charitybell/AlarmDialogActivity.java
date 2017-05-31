@@ -99,8 +99,8 @@ public class AlarmDialogActivity extends AppCompatActivity {
 
                         Toast.makeText(AlarmDialogActivity.this, "Alarm Canceled. Time to get up!",
                                 Toast.LENGTH_SHORT).show();
-                        Toast.makeText(AlarmDialogActivity.this, "You snoozed " + mSnoozeCount +
-                                " times.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(AlarmDialogActivity.this, "You donated $" + mSnoozeCount +
+                                " dollars to charity!", Toast.LENGTH_LONG).show();
                         mp.stop();
                         vibrator.cancel();
 
