@@ -48,6 +48,11 @@ public class AlarmDialogActivity extends AppCompatActivity {
                         Toast.makeText(AlarmDialogActivity.this, "Snoozed!", Toast.LENGTH_SHORT).show();
                         mp.stop();
                         vibrator.cancel();
+
+                        /**
+                         * Set another single alarm for 1 minute later. 1 minute snooze gap only
+                         * for demonstration/testing purposes.
+                         */
                         alarmMgr.set(AlarmManager.ELAPSED_REALTIME_WAKEUP,
                                 SystemClock.elapsedRealtime() +
                                         60 * 1000, alarmIntent);
