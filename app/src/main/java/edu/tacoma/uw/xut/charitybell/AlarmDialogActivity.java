@@ -6,6 +6,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -18,25 +19,36 @@ import android.widget.Toast;
 import com.facebook.share.model.ShareLinkContent;
 import com.facebook.share.widget.ShareDialog;
 import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
 
-
+/**
+ * Charity Bell
+ * Adam Waldron and Thomas Xu
+ * TCSS450
+ *
+ * AlarmDialogActivity
+ * This class represents the acvivity that creates the dialog and manages the flow after an alarm
+ * is fired, allowing to snooze for one minute (demonstration purposes only) or canceling the alarm.
+ * Snooze will branch into in app purchase flow, cancel will branch into share on facebook flow.
+ */
 
 public class AlarmDialogActivity extends AppCompatActivity {
+
     private MediaPlayer mp;
     private Vibrator vibrator;
     private AlarmManager alarmMgr;
     private PendingIntent alarmIntent;
     private ShareDialog shareDialog;
-
+    private int mSnoozeCount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        SharedPreferences snoozeCount = getPreferences(0);
+        mSnoozeCount = snoozeCount.getInt("CurrentUser", 0);
+
         FacebookSdk.sdkInitialize(getApplicationContext());
         shareDialog = new ShareDialog(this);
-
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(AlarmDialogActivity.this);
         Uri notification = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_ALARM);
@@ -59,6 +71,9 @@ public class AlarmDialogActivity extends AppCompatActivity {
                 .setCancelable(false)
                 .setPositiveButton("Snooze",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,int id) {
+
+                        mSnoozeCount ++;
+
                         Toast.makeText(AlarmDialogActivity.this, "Snoozed!", Toast.LENGTH_SHORT).show();
                         mp.stop();
                         vibrator.cancel();
@@ -70,21 +85,42 @@ public class AlarmDialogActivity extends AppCompatActivity {
                         alarmMgr.set(AlarmManager.ELAPSED_REALTIME_WAKEUP,
                                 SystemClock.elapsedRealtime() +
                                         60 * 1000, alarmIntent);
+
+                        SharedPreferences snoozeCount = getPreferences(0);
+                        SharedPreferences.Editor editor = snoozeCount.edit();
+                        editor.putInt("CurrentUser", mSnoozeCount);
+                        editor.commit();
+
                         finish();
                     }
                 })
                 .setNegativeButton("Cancel",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
 
-                        Toast.makeText(AlarmDialogActivity.this, "Alarm Canceled. Time to get up!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AlarmDialogActivity.this, "Alarm Canceled. Time to get up!",
+                                Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AlarmDialogActivity.this, "You snoozed " + mSnoozeCount +
+                                " times.", Toast.LENGTH_LONG).show();
                         mp.stop();
                         vibrator.cancel();
-                        finish();
+
+                        String snoozeQuote = "Wow! I just donated $" + mSnoozeCount + "by hitting " +
+                                "the snooze button " + mSnoozeCount + " times.";
+                        if (mSnoozeCount == 0) {
+                            snoozeQuote = "Yay! I didn't hit the snooze button today.";
+                        }
 
                         ShareLinkContent content = new ShareLinkContent.Builder()
-                                .setQuote("Wow! I just donated $2 by hitting the snooze") //eventually replace two with a number pulled from sqlite
+                                .setQuote(snoozeQuote)
                                 .setContentUrl(Uri.parse("http://www.CharityBell.com")).build();
                         shareDialog.show(content);
+
+                        SharedPreferences resetSnoozeCount = getPreferences(0);
+                        SharedPreferences.Editor editor = resetSnoozeCount.edit();
+                        editor.putInt("CurrentUser", 0);
+                        editor.commit();
+
+                        finish();
                     }
                 });
 

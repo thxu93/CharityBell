@@ -1,14 +1,3 @@
-/**
- * Charity Bell
- * Adam Waldron and Thomas Xu
- * TCSS450
- *
- * AlarmActivity
- * This activity class represents the activity in which you will use the timepicker to set an
- * alarm for a given user. When the alarm is set, the time is saved to the users account data, it
- * will remain persistent on the Firebase DB and will re-set the timepicker to the last saved time
- * every time the user logs in.
- */
 package edu.tacoma.uw.xut.charitybell;
 
 
@@ -36,6 +25,18 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import java.util.Calendar;
 import java.util.Random;
+
+/**
+ * Charity Bell
+ * Adam Waldron and Thomas Xu
+ * TCSS450
+ *
+ * AlarmActivity
+ * This activity class represents the activity in which you will use the timepicker to set an
+ * alarm for a given user. When the alarm is set, the time is saved to the users account data, it
+ * will remain persistent on the Firebase DB and will re-set the timepicker to the last saved time
+ * every time the user logs in.
+ */
 
 public class AlarmActivity extends AppCompatActivity {
     private static final String TAG = "AlarmActivity";
