@@ -16,6 +16,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.anjlab.android.iab.v3.BillingProcessor;
+import com.anjlab.android.iab.v3.TransactionDetails;
 import com.facebook.share.model.ShareLinkContent;
 import com.facebook.share.widget.ShareDialog;
 import com.facebook.FacebookSdk;
@@ -31,7 +33,7 @@ import com.facebook.FacebookSdk;
  * Snooze will branch into in app purchase flow, cancel will branch into share on facebook flow.
  */
 
-public class AlarmDialogActivity extends AppCompatActivity {
+public class AlarmDialogActivity extends AppCompatActivity implements BillingProcessor.IBillingHandler{
 
     private MediaPlayer mp;
     private Vibrator vibrator;
@@ -39,6 +41,8 @@ public class AlarmDialogActivity extends AppCompatActivity {
     private PendingIntent alarmIntent;
     private ShareDialog shareDialog;
     private int mSnoozeCount;
+
+    private BillingProcessor bp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +66,10 @@ public class AlarmDialogActivity extends AppCompatActivity {
         long pattern[]={0,300,200,300,500};
         vibrator.vibrate(pattern, 0);
 
+        //initialize bp
+        bp = new BillingProcessor(this, null, this);
+
+
         // set title
         alertDialogBuilder.setTitle("Alarm!");
 
@@ -74,7 +82,28 @@ public class AlarmDialogActivity extends AppCompatActivity {
 
                         mSnoozeCount ++;
 
-                        Toast.makeText(AlarmDialogActivity.this, "Snoozed!", Toast.LENGTH_SHORT).show();
+                        //in app implementation
+                        System.out.println(bp.isPurchased("android.test.purchased"));
+
+                        if (bp.isPurchased("android.test.purchased")) {
+                            System.out.println("True");
+                            bp.consumePurchase("android.test.purchased");
+                            onProductPurchased("android.test.purchased", null);
+                        } else {
+                            System.out.println("False");
+                            bp.purchase(AlarmDialogActivity.this, "android.test.purchased");
+                        }
+
+                        System.out.println(bp.getPurchaseTransactionDetails("android.test.purchased"));
+                        System.out.println(bp.getPurchaseListingDetails("android.test.purchased"));
+
+                        System.out.println(bp.isPurchased("android.test.purchased"));
+
+                        System.out.println();
+
+
+
+//                        Toast.makeText(AlarmDialogActivity.this, "Thanks for donating!", Toast.LENGTH_SHORT).show();
                         mp.stop();
                         vibrator.cancel();
 
@@ -106,7 +135,7 @@ public class AlarmDialogActivity extends AppCompatActivity {
                         mp.stop();
                         vibrator.cancel();
 
-                        String snoozeQuote = "Wow! I just donated $" + mSnoozeCount + "by hitting " +
+                        String snoozeQuote = "Wow! I just donated $" + mSnoozeCount + " by hitting " +
                                 "the snooze button " + mSnoozeCount + " times.";
                         if (mSnoozeCount == 0) {
                             snoozeQuote = "Yay! I didn't hit the snooze button today.";
@@ -131,5 +160,44 @@ public class AlarmDialogActivity extends AppCompatActivity {
 
         // show it
         alertDialog.show();
+    }
+
+    @Override
+    public void onProductPurchased(String productId, TransactionDetails details) {
+        Toast.makeText(this, "You've Donated $1", Toast.LENGTH_SHORT).show();
+        System.out.println(details + "  " + productId);
+    }
+
+    @Override
+    public void onPurchaseHistoryRestored() {
+
+    }
+
+    @Override
+    public void onBillingError(int errorCode, Throwable error) {
+        Toast.makeText(this, "fuck", Toast.LENGTH_SHORT).show();
+        System.out.println(errorCode + "  " + error);
+    }
+
+    @Override
+    public void onBillingInitialized() {
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (!bp.handleActivityResult(requestCode, resultCode, data))
+            super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public void onDestroy() {
+        if (bp != null) {
+            bp.release();
+        }
+
+        bp = null;
+
+        super.onDestroy();
     }
 }
